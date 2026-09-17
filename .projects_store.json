@@ -1,0 +1,197 @@
+{
+  "projects": {
+    "proj_1789490046_customer_chu": {
+      "id": "proj_1789490046_customer_chu",
+      "name": "Customer Churn Intelligence",
+      "description": "Predictive churn analytics and retention drivers.",
+      "created_at": "2026-09-15 09:34:06",
+      "updated_at": "2026-09-15 09:34:06",
+      "archived": false,
+      "active_dataset": "Customer Churn (Demo Dataset)",
+      "datasets": [
+        "Customer Churn (Demo Dataset)"
+      ],
+      "data_versions": [
+        {
+          "version": 1,
+          "created_at": "2026-09-15 09:34:06",
+          "name": "Raw Ingestion",
+          "rows": 608,
+          "columns": 12
+        }
+      ],
+      "cleaning_history": [],
+      "transformation_history": [],
+      "saved_queries": [
+        {
+          "id": "q1",
+          "name": "High Value Churners",
+          "sql": "SELECT CustomerID, Contract, MonthlyCharges, TotalCharges FROM df WHERE Churn = 'Yes' AND MonthlyCharges > 80 ORDER BY MonthlyCharges DESC LIMIT 10",
+          "created_at": "2026-09-15 09:34:06"
+        }
+      ],
+      "eda_results": {},
+      "charts": [],
+      "ml_models": [],
+      "predictions": [],
+      "dashboards": [
+        {
+          "id": "dash_default",
+          "title": "Executive Overview Dashboard",
+          "theme": "Executive Dark",
+          "created_at": "2026-09-15 09:34:06",
+          "widgets": [
+            "kpi_records",
+            "kpi_churn_rate",
+            "chart_contract",
+            "chart_charges"
+          ]
+        }
+      ],
+      "reports": [],
+      "ai_conversations": [
+        {
+          "role": "assistant",
+          "content": "Welcome to your Customer Churn Intelligence project! Ask me anything about trends, drivers, or predictive modeling.",
+          "timestamp": "2026-09-15 09:34:06"
+        }
+      ],
+      "activity_log": [
+        {
+          "action": "Project Initialized",
+          "timestamp": "2026-09-15 09:34:06",
+          "user": "Analyst"
+        }
+      ]
+    },
+    "proj_1789490046_real_estate_": {
+      "id": "proj_1789490046_real_estate_",
+      "name": "Real Estate Housing Valuation",
+      "description": "Property appraisal, price prediction, and spatial market dynamics.",
+      "created_at": "2026-09-15 09:34:06",
+      "updated_at": "2026-09-15 09:34:06",
+      "archived": false,
+      "active_dataset": "Real Estate Housing (Demo Dataset)",
+      "datasets": [
+        "Real Estate Housing (Demo Dataset)"
+      ],
+      "data_versions": [
+        {
+          "version": 1,
+          "created_at": "2026-09-15 09:34:06",
+          "name": "Raw Ingestion",
+          "rows": 608,
+          "columns": 12
+        }
+      ],
+      "cleaning_history": [],
+      "transformation_history": [],
+      "saved_queries": [
+        {
+          "id": "q1",
+          "name": "High Value Churners",
+          "sql": "SELECT CustomerID, Contract, MonthlyCharges, TotalCharges FROM df WHERE Churn = 'Yes' AND MonthlyCharges > 80 ORDER BY MonthlyCharges DESC LIMIT 10",
+          "created_at": "2026-09-15 09:34:06"
+        }
+      ],
+      "eda_results": {},
+      "charts": [],
+      "ml_models": [],
+      "predictions": [],
+      "dashboards": [
+        {
+          "id": "dash_default",
+          "title": "Executive Overview Dashboard",
+          "theme": "Executive Dark",
+          "created_at": "2026-09-15 09:34:06",
+          "widgets": [
+            "kpi_records",
+            "kpi_churn_rate",
+            "chart_contract",
+            "chart_charges"
+          ]
+        }
+      ],
+      "reports": [],
+      "ai_conversations": [
+        {
+          "role": "assistant",
+          "content": "Welcome to your Customer Churn Intelligence project! Ask me anything about trends, drivers, or predictive modeling.",
+          "timestamp": "2026-09-15 09:34:06"
+        }
+      ],
+      "activity_log": [
+        {
+          "action": "Project Initialized",
+          "timestamp": "2026-09-15 09:34:06",
+          "user": "Analyst"
+        }
+      ]
+    },
+    "proj_1789490046_global_e-com": {
+      "id": "proj_1789490046_global_e-com",
+      "name": "Global E-Commerce Omnichannel",
+      "description": "Revenue forecasting, profitability drivers, and multi-channel attribution.",
+      "created_at": "2026-09-15 09:34:06",
+      "updated_at": "2026-09-15 09:34:06",
+      "archived": false,
+      "active_dataset": "E-Commerce Sales (Demo Dataset)",
+      "datasets": [
+        "E-Commerce Sales (Demo Dataset)"
+      ],
+      "data_versions": [
+        {
+          "version": 1,
+          "created_at": "2026-09-15 09:34:06",
+          "name": "Raw Ingestion",
+          "rows": 608,
+          "columns": 12
+        }
+      ],
+      "cleaning_history": [],
+      "transformation_history": [],
+      "saved_queries": [
+        {
+          "id": "q1",
+          "name": "High Value Churners",
+          "sql": "SELECT CustomerID, Contract, MonthlyCharges, TotalCharges FROM df WHERE Churn = 'Yes' AND MonthlyCharges > 80 ORDER BY MonthlyCharges DESC LIMIT 10",
+          "created_at": "2026-09-15 09:34:06"
+        }
+      ],
+      "eda_results": {},
+      "charts": [],
+      "ml_models": [],
+      "predictions": [],
+      "dashboards": [
+        {
+          "id": "dash_default",
+          "title": "Executive Overview Dashboard",
+          "theme": "Executive Dark",
+          "created_at": "2026-09-15 09:34:06",
+          "widgets": [
+            "kpi_records",
+            "kpi_churn_rate",
+            "chart_contract",
+            "chart_charges"
+          ]
+        }
+      ],
+      "reports": [],
+      "ai_conversations": [
+        {
+          "role": "assistant",
+          "content": "Welcome to your Customer Churn Intelligence project! Ask me anything about trends, drivers, or predictive modeling.",
+          "timestamp": "2026-09-15 09:34:06"
+        }
+      ],
+      "activity_log": [
+        {
+          "action": "Project Initialized",
+          "timestamp": "2026-09-15 09:34:06",
+          "user": "Analyst"
+        }
+      ]
+    }
+  },
+  "active_project_id": "proj_1789490046_customer_chu"
+}

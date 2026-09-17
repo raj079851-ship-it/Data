@@ -1,0 +1,61 @@
+{
+  "mod_churn_rf_v1": {
+    "id": "mod_churn_rf_v1",
+    "name": "Customer Churn Classifier",
+    "version": "1.2.0",
+    "dataset": "Customer Churn (Demo Dataset)",
+    "target": "Churn",
+    "features": [
+      "Contract",
+      "MonthlyCharges",
+      "TenureMonths",
+      "PaperlessBilling"
+    ],
+    "algorithm": "Random Forest Classifier",
+    "hyperparameters": {
+      "n_estimators": 100,
+      "max_depth": 8,
+      "random_state": 42
+    },
+    "metrics": {
+      "accuracy": 0.842,
+      "f1": 0.812,
+      "precision": 0.825,
+      "recall": 0.801,
+      "roc_auc": 0.891
+    },
+    "training_date": "2024-03-12 14:22:00",
+    "status": "Production",
+    "author": "Lead ML Engineer",
+    "notes": "Deployed model for real-time customer churn scoring."
+  },
+  "mod_price_gbm_v1": {
+    "id": "mod_price_gbm_v1",
+    "name": "Property Valuation Regressor",
+    "version": "2.0.1",
+    "dataset": "Real Estate Housing (Demo Dataset)",
+    "target": "SalePrice",
+    "features": [
+      "SqftLiving",
+      "Bedrooms",
+      "Bathrooms",
+      "YearBuilt",
+      "LotSizeAcres"
+    ],
+    "algorithm": "Gradient Boosting Regressor",
+    "hyperparameters": {
+      "n_estimators": 120,
+      "learning_rate": 0.08
+    },
+    "metrics": {
+      "r2": 0.884,
+      "rmse": 32140.5,
+      "mae": 24100.2,
+      "mape": 6.8
+    },
+    "training_date": "2024-04-05 09:15:00",
+    "status": "Validated",
+    "author": "Senior Data Scientist",
+    "notes": "Evaluated against 2024 property valuation benchmarks."
+  }
+}

@@ -1,0 +1,801 @@
+OrderID,OrderDate,Region,Category,Product,CustomerSegment,SalesChannel,UnitsSold,UnitPrice,Revenue,Cost,Profit,CustomerSatisfaction
+ORD-50000,2022-01-01,Europe,Apparel,Merino Sweater,Enterprise,Organic Search,1,110.82,110.82,87.01,23.81,4.6
+ORD-50001,2022-01-02,Europe,Electronics,Noise-Cancelling Headphones,SMB,Organic Search,2,251.31,502.61,260.86,241.75,3.8
+ORD-50002,2022-01-02,North America,Home & Office,Desk Lamp,Consumer,Direct Web,3,62.9,188.71,123.08,65.63,4.2
+ORD-50003,2022-01-03,North America,Electronics,Pro Laptop,SMB,Organic Search,3,1178.78,3536.33,2773.74,762.59,4.7
+ORD-50004,2022-01-03,Europe,Electronics,Noise-Cancelling Headphones,Enterprise,Affiliate,2,250.14,500.28,234.73,265.55,5.0
+ORD-50005,2022-01-03,Asia-Pacific,Apparel,Performance Jacket,SMB,Direct Web,1,161.37,161.37,118.44,42.93,3.0
+ORD-50006,2022-01-04,North America,Electronics,Pro Laptop,Consumer,Affiliate,2,1144.77,2289.53,1831.38,458.15,4.7
+ORD-50007,2022-01-08,Asia-Pacific,Electronics,Noise-Cancelling Headphones,SMB,Paid Ads,1,257.43,257.43,178.36,79.07,4.8
+ORD-50008,2022-01-11,Asia-Pacific,Home & Office,Ergonomic Chair,Enterprise,Paid Ads,4,342.04,1368.18,740.99,627.19,4.8
+ORD-50009,2022-01-12,North America,Apparel,Merino Sweater,SMB,Direct Web,3,109.41,328.24,182.21,146.03,5.0
+ORD-50010,2022-01-12,Europe,Beauty & Care,Mineral Sunscreen,Consumer,Direct Web,2,30.88,61.76,30.97,30.79,4.3
+ORD-50011,2022-01-14,North America,Electronics,Smart Watch,SMB,Organic Search,1,311.02,311.02,145.13,165.89,5.0
+ORD-50012,2022-01-16,North America,Home & Office,Standing Desk,Consumer,Organic Search,1,600.38,600.38,382.32,218.06,3.3
+ORD-50013,2022-01-18,Asia-Pacific,Apparel,Classic Tee,Consumer,Direct Web,2,35.37,70.74,46.07,24.67,3.7
+ORD-50014,2022-01-19,Latin America,Electronics,Ultra HD Monitor,Enterprise,Paid Ads,8,461.65,3693.18,2547.83,1145.35,4.6
+ORD-50015,2022-01-20,North America,Electronics,Noise-Cancelling Headphones,SMB,Direct Web,1,254.6,254.6,140.72,113.88,3.6
+ORD-50016,2022-01-21,North America,Apparel,Merino Sweater,SMB,Organic Search,1,114.57,114.57,61.75,52.82,5.0
+ORD-50017,2022-01-22,Europe,Electronics,Pro Laptop,Consumer,Affiliate,3,1224.29,3672.88,2295.94,1376.94,4.5
+ORD-50018,2022-01-23,Asia-Pacific,Electronics,Pro Laptop,Enterprise,Paid Ads,2,1188.25,2376.5,1833.83,542.67,5.0
+ORD-50019,2022-01-24,North America,Electronics,Smart Watch,Enterprise,Direct Web,1,308.84,308.84,149.33,159.51,3.4
+ORD-50020,2022-01-24,Europe,Apparel,Merino Sweater,SMB,Direct Web,2,111.15,222.3,124.04,98.26,3.6
+ORD-50021,2022-01-26,Europe,Home & Office,Desk Lamp,Enterprise,Direct Web,1,65.03,65.03,31.24,33.79,4.5
+ORD-50022,2022-01-28,North America,Home & Office,Desk Lamp,Consumer,Organic Search,1,62.6,62.6,39.19,23.41,3.7
+ORD-50023,2022-01-29,North America,Electronics,Noise-Cancelling Headphones,SMB,Affiliate,1,247.15,247.15,111.88,135.27,5.0
+ORD-50024,2022-01-29,North America,Beauty & Care,Serum Pack,SMB,Direct Web,8,82.68,661.43,336.13,325.3,3.3
+ORD-50025,2022-01-29,Latin America,Electronics,Noise-Cancelling Headphones,Consumer,Affiliate,1,262.42,262.42,156.71,105.71,5.0
+ORD-50026,2022-01-31,Europe,Apparel,Classic Tee,Consumer,Affiliate,1,36.2,36.2,16.49,19.71,3.3
+ORD-50027,2022-01-31,Europe,Beauty & Care,Serum Pack,SMB,Paid Ads,2,84.91,169.81,83.62,86.19,4.4
+ORD-50028,2022-02-01,Asia-Pacific,Beauty & Care,Hydration Cream,SMB,Paid Ads,8,47.23,377.84,240.04,137.8,4.9
+ORD-50029,2022-02-03,Europe,Home & Office,Coffee Maker,Enterprise,Paid Ads,2,175.72,351.43,258.41,93.02,4.0
+ORD-50030,2022-02-03,Latin America,Electronics,Ultra HD Monitor,Enterprise,Affiliate,2,454.23,908.46,432.4,476.06,4.5
+ORD-50031,2022-02-04,Asia-Pacific,Beauty & Care,Mineral Sunscreen,Consumer,Organic Search,2,31.35,62.69,35.11,27.58,3.7
+ORD-50032,2022-02-05,Europe,Home & Office,Coffee Maker,Consumer,Paid Ads,3,182.49,547.47,431.83,115.64,4.4
+ORD-50033,2022-02-06,North America,Electronics,Pro Laptop,Consumer,Paid Ads,3,1161.8,3485.4,1638.74,1846.66,4.0
+ORD-50034,2022-02-07,Latin America,Home & Office,Ergonomic Chair,SMB,Affiliate,2,341.59,683.18,531.67,151.51,3.0
+ORD-50035,2022-02-07,North America,Home & Office,Coffee Maker,Consumer,Paid Ads,4,178.15,712.59,403.06,309.53,4.7
+ORD-50036,2022-02-08,Asia-Pacific,Home & Office,Standing Desk,Enterprise,Direct Web,2,576.1,1152.2,675.27,476.93,3.9
+ORD-50037,2022-02-12,Asia-Pacific,Beauty & Care,Mineral Sunscreen,Enterprise,Paid Ads,4,31.74,126.96,70.54,56.42,4.2
+ORD-50038,2022-02-12,Europe,Electronics,Ultra HD Monitor,Consumer,Direct Web,1,456.52,456.52,218.93,237.59,3.9
+ORD-50039,2022-02-13,Latin America,Electronics,Ultra HD Monitor,Consumer,Direct Web,2,433.07,866.14,472.99,393.15,5.0
+ORD-50040,2022-02-14,North America,Beauty & Care,Face Cleanser,Consumer,Organic Search,1,28.27,28.27,17.46,10.81,4.7
+ORD-50041,2022-02-14,North America,Electronics,Noise-Cancelling Headphones,Enterprise,Direct Web,1,260.86,260.86,145.59,115.27,3.4
+ORD-50042,2022-02-14,Asia-Pacific,Electronics,Pro Laptop,Consumer,Organic Search,1,1199.35,1199.35,572.8,626.55,3.9
+ORD-50043,2022-02-15,Asia-Pacific,Electronics,Ultra HD Monitor,Consumer,Direct Web,1,456.48,456.48,210.54,245.94,5.0
+ORD-50044,2022-02-15,North America,Home & Office,Desk Lamp,SMB,Organic Search,3,63.97,191.9,90.16,101.74,4.2
+ORD-50045,2022-02-16,North America,Beauty & Care,Face Cleanser,SMB,Affiliate,5,27.74,138.7,69.35,69.35,4.5
+ORD-50046,2022-02-16,Europe,Beauty & Care,Serum Pack,SMB,Direct Web,2,87.98,175.96,139.72,36.24,4.7
+ORD-50047,2022-02-16,North America,Electronics,Noise-Cancelling Headphones,SMB,Organic Search,3,249.37,748.11,412.44,335.67,4.1
+ORD-50048,2022-02-19,Asia-Pacific,Beauty & Care,Face Cleanser,SMB,Direct Web,1,27.06,27.06,20.16,6.9,3.0
+ORD-50049,2022-02-19,Europe,Home & Office,Ergonomic Chair,Enterprise,Paid Ads,1,354.44,354.44,201.04,153.4,5.0
+ORD-50050,2022-02-20,Europe,Home & Office,Desk Lamp,SMB,Paid Ads,1,62.47,62.47,28.24,34.23,3.8
+ORD-50051,2022-02-21,Europe,Home & Office,Ergonomic Chair,Consumer,Paid Ads,1,348.76,348.76,271.69,77.07,4.4
+ORD-50052,2022-02-22,North America,Home & Office,Standing Desk,SMB,Organic Search,8,629.01,5032.09,3129.15,1902.94,4.7
+ORD-50053,2022-02-23,North America,Beauty & Care,Serum Pack,Enterprise,Direct Web,1,85.26,85.26,40.37,44.89,4.5
+ORD-50054,2022-02-23,Europe,Beauty & Care,Mineral Sunscreen,Consumer,Direct Web,5,31.62,158.1,94.48,63.62,5.0
+ORD-50055,2022-02-23,North America,Apparel,Trail Shoes,SMB,Organic Search,3,134.12,402.37,257.08,145.29,4.4
+ORD-50056,2022-02-24,Europe,Apparel,Performance Jacket,Consumer,Direct Web,3,161.15,483.44,232.76,250.68,4.3
+ORD-50057,2022-02-27,North America,Home & Office,Ergonomic Chair,Consumer,Paid Ads,2,332.85,665.69,434.96,230.73,3.2
+ORD-50058,2022-02-28,North America,Electronics,Noise-Cancelling Headphones,SMB,Affiliate,2,260.9,521.79,414.68,107.11,4.6
+ORD-50059,2022-02-28,North America,Electronics,Pro Laptop,Enterprise,Organic Search,1,1258.02,1258.02,597.12,660.9,4.3
+ORD-50060,2022-03-01,Europe,Home & Office,Ergonomic Chair,SMB,Organic Search,1,337.86,337.86,190.73,147.13,2.2
+ORD-50061,2022-03-02,Asia-Pacific,Beauty & Care,Mineral Sunscreen,SMB,Paid Ads,1,31.77,31.77,20.82,10.95,4.6
+ORD-50062,2022-03-03,Latin America,Electronics,Ultra HD Monitor,SMB,Organic Search,2,433.99,867.97,623.32,244.65,5.0
+ORD-50063,2022-03-05,Europe,Electronics,Smart Watch,Consumer,Direct Web,2,286.6,573.2,328.42,244.78,4.4
+ORD-50064,2022-03-05,Europe,Apparel,Trail Shoes,Consumer,Organic Search,2,128.31,256.63,180.24,76.39,5.0
+ORD-50065,2022-03-05,Europe,Electronics,Smart Watch,Consumer,Paid Ads,1,298.07,298.07,196.55,101.52,3.1
+ORD-50066,2022-03-05,North America,Electronics,Ultra HD Monitor,Consumer,Organic Search,2,443.53,887.07,679.07,208.0,4.0
+ORD-50067,2022-03-06,North America,Electronics,Noise-Cancelling Headphones,Consumer,Paid Ads,2,243.72,487.43,383.65,103.78,3.6
+ORD-50068,2022-03-08,North America,Home & Office,Ergonomic Chair,Consumer,Paid Ads,4,345.28,1381.12,1089.12,292.0,5.0
+ORD-50069,2022-03-09,Europe,Apparel,Trail Shoes,Consumer,Affiliate,1,130.1,130.1,64.84,65.26,3.0
+ORD-50070,2022-03-10,Asia-Pacific,Home & Office,Standing Desk,Enterprise,Paid Ads,5,627.29,3136.46,1815.75,1320.71,3.4
+ORD-50071,2022-03-13,Europe,Beauty & Care,Serum Pack,Consumer,Organic Search,3,82.14,246.41,156.62,89.79,3.8
+ORD-50072,2022-03-16,Europe,Electronics,Ultra HD Monitor,Enterprise,Direct Web,1,439.5,439.5,278.16,161.34,2.9
+ORD-50073,2022-03-18,Europe,Electronics,Smart Watch,Consumer,Direct Web,1,292.92,292.92,185.64,107.28,3.9
+ORD-50074,2022-03-19,Europe,Home & Office,Ergonomic Chair,Enterprise,Direct Web,1,350.55,350.55,237.31,113.24,5.0
+ORD-50075,2022-03-19,North America,Apparel,Trail Shoes,Enterprise,Affiliate,3,131.04,393.13,295.51,97.62,4.9
+ORD-50076,2022-03-20,Europe,Electronics,Smart Watch,Enterprise,Organic Search,2,309.01,618.03,457.6,160.43,4.1
+ORD-50077,2022-03-20,Europe,Home & Office,Desk Lamp,SMB,Paid Ads,1,66.01,66.01,41.03,24.98,4.5
+ORD-50078,2022-03-20,Asia-Pacific,Home & Office,Desk Lamp,Consumer,Paid Ads,3,67.93,203.78,130.17,73.61,3.5
+ORD-50079,2022-03-24,North America,Beauty & Care,Mineral Sunscreen,Consumer,Direct Web,1,33.03,33.03,15.5,17.53,4.7
+ORD-50080,2022-03-25,Asia-Pacific,Apparel,Classic Tee,Consumer,Direct Web,1,33.39,33.39,16.72,16.67,2.2
+ORD-50081,2022-03-26,Europe,Beauty & Care,Hydration Cream,SMB,Affiliate,1,43.79,43.79,19.89,23.9,4.8
+ORD-50082,2022-03-27,Europe,Electronics,Smart Watch,Enterprise,Direct Web,1,307.16,307.16,183.14,124.02,2.6
+ORD-50083,2022-03-27,Europe,Electronics,Smart Watch,Enterprise,Direct Web,1,292.96,292.96,210.73,82.23,4.0
+ORD-50084,2022-03-27,Latin America,Electronics,Pro Laptop,Enterprise,Paid Ads,1,1228.37,1228.37,857.2,371.17,3.7
+ORD-50085,2022-03-28,North America,Home & Office,Ergonomic Chair,Consumer,Direct Web,8,364.82,2918.55,1365.98,1552.57,2.7
+ORD-50086,2022-03-30,North America,Electronics,Smart Watch,Enterprise,Organic Search,2,306.63,613.26,380.66,232.6,4.0
+ORD-50087,2022-03-30,North America,Electronics,Noise-Cancelling Headphones,Consumer,Direct Web,1,253.74,253.74,182.07,71.67,4.7
+ORD-50088,2022-04-01,North America,Apparel,Merino Sweater,SMB,Organic Search,3,109.93,329.78,229.33,100.45,4.8
+ORD-50089,2022-04-02,Latin America,Electronics,Ultra HD Monitor,Enterprise,Direct Web,2,440.67,881.33,,285.12,4.9
+ORD-50090,2022-04-03,North America,Home & Office,Ergonomic Chair,Enterprise,Paid Ads,2,334.9,669.79,517.39,152.4,4.7
+ORD-50091,2022-04-04,Europe,Electronics,Smart Watch,Enterprise,Paid Ads,1,313.06,313.06,242.13,70.93,3.9
+ORD-50092,2022-04-05,Europe,Electronics,Smart Watch,Enterprise,Organic Search,1,299.5,299.5,214.95,84.55,4.8
+ORD-50093,2022-04-06,North America,Electronics,Ultra HD Monitor,Enterprise,Organic Search,1,451.62,451.62,351.58,100.04,4.3
+ORD-50094,2022-04-09,North America,Beauty & Care,Hydration Cream,Consumer,Affiliate,2,43.21,86.42,42.68,43.74,4.3
+ORD-50095,2022-04-09,Asia-Pacific,Electronics,Noise-Cancelling Headphones,Consumer,Paid Ads,2,255.34,510.68,406.34,104.34,3.7
+ORD-50096,2022-04-12,North America,Home & Office,Desk Lamp,Consumer,Paid Ads,3,66.07,198.2,155.41,42.79,5.0
+ORD-50097,2022-04-14,Europe,Home & Office,Ergonomic Chair,Consumer,Paid Ads,3,348.1,1044.31,709.35,334.96,
+ORD-50098,2022-04-14,Asia-Pacific,Electronics,Smart Watch,SMB,Direct Web,1,284.7,284.7,184.75,99.95,5.0
+ORD-50099,2022-04-14,Europe,Home & Office,Ergonomic Chair,Consumer,Organic Search,4,333.7,1334.79,651.45,683.34,4.3
+ORD-50100,2022-04-17,Europe,Electronics,Ultra HD Monitor,SMB,Organic Search,1,434.69,434.69,270.8,163.89,3.2
+ORD-50101,2022-04-17,North America,Electronics,Smart Watch,SMB,Paid Ads,1,304.33,304.33,189.51,114.82,5.0
+ORD-50102,2022-04-18,Europe,Home & Office,Coffee Maker,Consumer,Paid Ads,2,173.44,346.88,244.81,102.07,3.3
+ORD-50103,2022-04-18,North America,Home & Office,Coffee Maker,Consumer,Direct Web,1,171.01,171.01,118.02,52.99,4.3
+ORD-50104,2022-04-18,Latin America,Electronics,Smart Watch,Consumer,Direct Web,1,313.67,313.67,240.06,73.61,5.0
+ORD-50105,2022-04-19,North America,Electronics,Ultra HD Monitor,SMB,Paid Ads,1,460.03,460.03,238.17,221.86,4.5
+ORD-50106,2022-04-20,North America,Apparel,Merino Sweater,Enterprise,Affiliate,1,105.62,105.62,49.89,55.73,4.2
+ORD-50107,2022-04-21,North America,Beauty & Care,Face Cleanser,Consumer,Paid Ads,1,27.04,27.04,14.05,12.99,3.9
+ORD-50108,2022-04-23,Latin America,Beauty & Care,Mineral Sunscreen,Consumer,Organic Search,2,31.33,62.67,43.95,18.72,4.7
+ORD-50109,2022-04-23,North America,Home & Office,Ergonomic Chair,SMB,Paid Ads,2,362.25,724.49,358.73,365.76,3.8
+ORD-50110,2022-04-23,Asia-Pacific,Apparel,Classic Tee,SMB,Organic Search,3,34.27,102.81,72.96,29.85,4.6
+ORD-50111,2022-04-25,Latin America,Electronics,Pro Laptop,Enterprise,Paid Ads,2,1157.3,2314.6,1365.69,948.91,2.9
+ORD-50112,2022-04-25,Asia-Pacific,Beauty & Care,Serum Pack,Enterprise,Organic Search,2,83.32,166.64,88.82,77.82,4.2
+ORD-50113,2022-04-27,North America,Home & Office,Desk Lamp,Enterprise,Direct Web,3,64.35,193.06,99.7,93.36,5.0
+ORD-50114,2022-04-28,Latin America,Home & Office,Ergonomic Chair,SMB,Direct Web,1,350.82,350.82,165.46,185.36,5.0
+ORD-50115,2022-04-28,Asia-Pacific,Beauty & Care,Hydration Cream,SMB,Paid Ads,2,46.98,93.96,63.12,30.84,5.0
+ORD-50116,2022-04-28,North America,Apparel,Classic Tee,Consumer,Organic Search,1,36.22,36.22,24.09,12.13,3.5
+ORD-50117,2022-04-29,Asia-Pacific,Home & Office,Coffee Maker,SMB,Organic Search,2,173.44,346.87,259.74,87.13,4.1
+ORD-50118,2022-04-29,Asia-Pacific,Electronics,Smart Watch,SMB,Direct Web,2,284.22,568.43,301.94,266.49,3.9
+ORD-50119,2022-05-04,North America,Home & Office,Standing Desk,SMB,Direct Web,3,577.29,1731.88,1230.81,501.07,3.9
+ORD-50120,2022-05-06,North America,Electronics,Noise-Cancelling Headphones,Consumer,Organic Search,1,249.73,249.73,170.28,79.45,4.9
+ORD-50121,2022-05-07,Asia-Pacific,Beauty & Care,Mineral Sunscreen,Enterprise,Paid Ads,2,31.98,63.96,42.98,20.98,3.2
+ORD-50122,2022-05-07,Asia-Pacific,Apparel,Performance Jacket,SMB,Direct Web,1,163.97,163.97,90.76,73.21,2.9
+ORD-50123,2022-05-09,North America,Electronics,Ultra HD Monitor,Enterprise,Affiliate,1,454.42,454.42,295.19,159.23,2.9
+ORD-50124,2022-05-10,Europe,Electronics,Smart Watch,Enterprise,Affiliate,1,298.84,298.84,209.65,89.19,5.0
+ORD-50125,2022-05-10,North America,Home & Office,Desk Lamp,Enterprise,Organic Search,1,65.6,65.6,49.97,15.63,3.8
+ORD-50126,2022-05-10,North America,Beauty & Care,Hydration Cream,SMB,Direct Web,3,43.43,130.3,63.65,66.65,4.4
+ORD-50127,2022-05-12,Europe,Electronics,Ultra HD Monitor,SMB,Organic Search,3,453.21,1359.64,1084.22,275.42,3.1
+ORD-50128,2022-05-15,North America,Electronics,Smart Watch,Consumer,Paid Ads,1,299.63,299.63,164.08,135.55,4.4
+ORD-50129,2022-05-15,Europe,Home & Office,Desk Lamp,Enterprise,Organic Search,3,63.57,190.72,135.4,55.32,5.0
+ORD-50130,2022-05-15,North America,Apparel,Performance Jacket,SMB,Direct Web,3,162.07,486.21,357.42,128.79,4.0
+ORD-50131,2022-05-15,North America,Beauty & Care,Hydration Cream,SMB,Organic Search,2,43.09,86.18,59.64,26.54,5.0
+ORD-50132,2022-05-17,North America,Home & Office,Standing Desk,SMB,Organic Search,1,621.33,621.33,452.06,169.27,4.4
+ORD-50133,2022-05-18,Latin America,Home & Office,Desk Lamp,Consumer,Organic Search,1,62.31,62.31,31.2,31.11,4.3
+ORD-50134,2022-05-20,North America,Electronics,Smart Watch,Consumer,Organic Search,1,290.77,290.77,171.37,119.4,5.0
+ORD-50135,2022-05-20,Europe,Home & Office,Desk Lamp,Consumer,Direct Web,3,65.49,196.47,149.74,46.73,3.9
+ORD-50136,2022-05-21,Europe,Electronics,Noise-Cancelling Headphones,Consumer,Direct Web,2,254.31,508.62,387.18,121.44,5.0
+ORD-50137,2022-05-21,North America,Home & Office,Ergonomic Chair,Consumer,Affiliate,2,360.16,720.32,557.86,162.46,
+ORD-50138,2022-05-22,Asia-Pacific,Home & Office,Ergonomic Chair,SMB,Direct Web,2,353.0,705.99,360.9,345.09,3.1
+ORD-50139,2022-05-25,North America,Electronics,Smart Watch,Consumer,Paid Ads,4,304.23,1216.91,666.32,550.59,4.5
+ORD-50140,2022-05-25,Europe,Home & Office,Coffee Maker,Consumer,Affiliate,1,175.57,175.57,84.73,90.84,3.4
+ORD-50141,2022-05-26,North America,Apparel,Trail Shoes,SMB,Direct Web,2,125.71,251.42,153.21,98.21,4.0
+ORD-50142,2022-05-26,Asia-Pacific,Electronics,Noise-Cancelling Headphones,Enterprise,Direct Web,1,241.19,241.19,131.58,109.61,4.5
+ORD-50143,2022-05-29,Asia-Pacific,Beauty & Care,Face Cleanser,Consumer,Direct Web,1,27.94,27.94,21.07,6.87,4.8
+ORD-50144,2022-05-30,Europe,Electronics,Smart Watch,SMB,Organic Search,1,301.56,301.56,239.07,62.49,4.0
+ORD-50145,2022-06-02,North America,Beauty & Care,Serum Pack,Enterprise,Direct Web,2,88.59,177.18,121.87,55.31,4.1
+ORD-50146,2022-06-03,Latin America,Home & Office,Ergonomic Chair,Enterprise,Paid Ads,3,348.67,1046.0,703.29,342.71,4.0
+ORD-50147,2022-06-03,Europe,Home & Office,Ergonomic Chair,Consumer,Organic Search,2,355.53,711.07,469.64,241.43,5.0
+ORD-50148,2022-06-05,North America,Electronics,Ultra HD Monitor,SMB,Organic Search,2,459.82,919.64,455.14,464.5,4.4
+ORD-50149,2022-06-06,Asia-Pacific,Electronics,Smart Watch,Consumer,Organic Search,4,297.21,1188.84,890.51,298.33,4.1
+ORD-50150,2022-06-06,North America,Home & Office,Standing Desk,Enterprise,Organic Search,1,585.87,585.87,299.66,286.21,5.0
+ORD-50151,2022-06-07,Asia-Pacific,Electronics,Ultra HD Monitor,Consumer,Organic Search,5,457.53,2287.67,1678.34,609.33,3.9
+ORD-50152,2022-06-07,North America,Home & Office,Ergonomic Chair,Consumer,Direct Web,1,357.82,357.82,192.09,165.73,
+ORD-50153,2022-06-08,Asia-Pacific,Home & Office,Coffee Maker,Enterprise,Direct Web,1,174.35,174.35,79.37,94.98,3.6
+ORD-50154,2022-06-10,North America,Home & Office,Coffee Maker,SMB,Affiliate,4,177.24,708.98,320.27,388.71,4.5
+ORD-50155,2022-06-10,Europe,Home & Office,Coffee Maker,Enterprise,Direct Web,3,188.61,565.83,405.49,160.34,3.7
+ORD-50156,2022-06-11,Latin America,Electronics,Pro Laptop,Consumer,Affiliate,3,1182.07,3546.22,2777.92,768.3,3.1
+ORD-50157,2022-06-14,Latin America,Apparel,Performance Jacket,Enterprise,Paid Ads,1,152.81,152.81,92.74,60.07,3.9
+ORD-50158,2022-06-15,North America,Electronics,Noise-Cancelling Headphones,SMB,Organic Search,1,252.69,252.69,129.0,123.69,
+ORD-50159,2022-06-15,Latin America,Home & Office,Desk Lamp,Consumer,Direct Web,1,64.89,64.89,29.96,34.93,3.7
+ORD-50160,2022-06-22,Europe,Electronics,Smart Watch,SMB,Direct Web,1,284.19,284.19,,100.28,5.0
+ORD-50161,2022-06-23,Latin America,Electronics,Pro Laptop,Consumer,Paid Ads,1,1183.51,1183.51,811.64,371.87,4.5
+ORD-50162,2022-06-25,Europe,Home & Office,Ergonomic Chair,SMB,Paid Ads,3,344.48,1033.44,585.06,448.38,5.0
+ORD-50163,2022-06-25,North America,Home & Office,Ergonomic Chair,SMB,Paid Ads,1,344.34,344.34,186.15,158.19,3.6
+ORD-50164,2022-06-27,Europe,Home & Office,Ergonomic Chair,Consumer,Organic Search,1,357.88,357.88,172.61,185.27,4.0
+ORD-50165,2022-06-27,Europe,Home & Office,Ergonomic Chair,Consumer,Direct Web,2,333.28,666.57,490.89,175.68,4.4
+ORD-50166,2022-06-30,Europe,Home & Office,Standing Desk,SMB,Affiliate,2,627.41,1254.82,568.62,686.2,4.4
+ORD-50167,2022-07-01,Europe,Apparel,Performance Jacket,Consumer,Direct Web,2,158.11,316.23,204.85,111.38,5.0
+ORD-50168,2022-07-01,North America,Home & Office,Desk Lamp,Consumer,Paid Ads,1,63.43,63.43,33.7,29.73,3.8
+ORD-50169,2022-07-04,Asia-Pacific,Home & Office,Standing Desk,SMB,Paid Ads,3,596.5,1789.5,1320.9,468.6,4.4
+ORD-50170,2022-07-04,Asia-Pacific,Electronics,Smart Watch,Consumer,Paid Ads,2,287.6,575.2,413.29,161.91,3.6
+ORD-50171,2022-07-05,Asia-Pacific,Electronics,Smart Watch,Consumer,Organic Search,4,295.95,1183.82,712.46,471.36,4.9
+ORD-50172,2022-07-05,North America,Apparel,Performance Jacket,Enterprise,Paid Ads,3,162.72,488.17,275.22,212.95,5.0
+ORD-50173,2022-07-06,Europe,Beauty & Care,Face Cleanser,SMB,Affiliate,2,28.54,57.08,37.23,19.85,3.7
+ORD-50174,2022-07-08,North America,Home & Office,Coffee Maker,SMB,Affiliate,3,176.83,530.5,265.12,265.38,4.7
+ORD-50175,2022-07-09,North America,Home & Office,Desk Lamp,Consumer,Direct Web,1,62.49,62.49,37.09,25.4,4.3
+ORD-50176,2022-07-12,Asia-Pacific,Electronics,Smart Watch,SMB,Paid Ads,3,306.43,919.3,,227.87,3.3
+ORD-50177,2022-07-14,Asia-Pacific,Home & Office,Coffee Maker,Consumer,Paid Ads,1,188.9,188.9,110.25,78.65,5.0
+ORD-50178,2022-07-20,Asia-Pacific,Electronics,Pro Laptop,Consumer,Direct Web,3,1143.11,3429.34,1709.55,1719.79,4.1
+ORD-50179,2022-07-21,Europe,Home & Office,Desk Lamp,Consumer,Paid Ads,1,67.6,67.6,51.68,15.92,3.8
+ORD-50180,2022-07-22,Latin America,Beauty & Care,Face Cleanser,SMB,Paid Ads,1,29.35,29.35,15.43,13.92,5.0
+ORD-50181,2022-07-25,Europe,Electronics,Noise-Cancelling Headphones,SMB,Direct Web,1,240.68,240.68,125.33,115.35,4.0
+ORD-50182,2022-07-25,North America,Beauty & Care,Face Cleanser,Enterprise,Direct Web,2,28.61,57.22,31.71,25.51,4.3
+ORD-50183,2022-07-26,North America,Home & Office,Standing Desk,Enterprise,Direct Web,2,610.68,1221.35,658.99,562.36,4.8
+ORD-50184,2022-07-28,North America,Electronics,Pro Laptop,SMB,Direct Web,1,1224.77,1224.77,592.33,632.44,3.8
+ORD-50185,2022-07-28,North America,Home & Office,Ergonomic Chair,Consumer,Affiliate,2,345.8,691.61,510.73,180.88,5.0
+ORD-50186,2022-07-28,North America,Electronics,Ultra HD Monitor,Enterprise,Organic Search,3,455.24,1365.72,768.31,597.41,3.4
+ORD-50187,2022-07-28,Latin America,Electronics,Smart Watch,Enterprise,Organic Search,2,300.66,601.32,440.69,160.63,5.0
+ORD-50188,2022-07-29,Asia-Pacific,Apparel,Classic Tee,Consumer,Organic Search,8,34.4,275.22,205.22,70.0,4.6
+ORD-50189,2022-07-29,Latin America,Apparel,Classic Tee,Consumer,Affiliate,2,35.35,70.71,34.2,36.51,4.4
+ORD-50190,2022-07-29,Europe,Apparel,Trail Shoes,Consumer,Paid Ads,2,135.89,271.77,180.44,91.33,5.0
+ORD-50191,2022-07-30,Europe,Home & Office,Standing Desk,Enterprise,Paid Ads,1,610.36,610.36,357.57,252.79,3.6
+ORD-50192,2022-07-30,North America,Apparel,Merino Sweater,SMB,Affiliate,3,113.96,341.88,193.93,147.95,4.0
+ORD-50193,2022-08-01,North America,Electronics,Pro Laptop,SMB,Paid Ads,3,1223.7,3671.09,1690.48,1980.61,4.8
+ORD-50194,2022-08-02,Europe,Home & Office,Standing Desk,SMB,Affiliate,3,621.19,1863.56,1262.43,601.13,
+ORD-50195,2022-08-02,Asia-Pacific,Electronics,Pro Laptop,Enterprise,Direct Web,1,1160.4,1160.4,858.34,302.06,4.5
+ORD-50196,2022-08-03,North America,Electronics,Pro Laptop,Consumer,Direct Web,8,1177.96,9423.71,5280.99,4142.72,4.4
+ORD-50197,2022-08-03,Asia-Pacific,Home & Office,Desk Lamp,Enterprise,Direct Web,3,64.86,194.58,118.6,75.98,4.6
+ORD-50198,2022-08-04,North America,Apparel,Trail Shoes,SMB,Direct Web,4,135.54,542.18,246.62,295.56,3.8
+ORD-50199,2022-08-05,Europe,Electronics,Ultra HD Monitor,SMB,Direct Web,2,463.09,926.18,708.26,217.92,3.5
+ORD-50200,2022-08-07,Europe,Apparel,Merino Sweater,SMB,Direct Web,5,106.14,530.71,275.59,255.12,4.5
+ORD-50201,2022-08-09,North America,Beauty & Care,Serum Pack,Enterprise,Paid Ads,1,84.2,84.2,64.27,19.93,4.8
+ORD-50202,2022-08-10,Europe,Home & Office,Ergonomic Chair,SMB,Affiliate,3,354.83,1064.5,722.15,342.35,3.4
+ORD-50203,2022-08-10,North America,Electronics,Ultra HD Monitor,Enterprise,Affiliate,3,451.59,1354.76,864.12,490.64,4.5
+ORD-50204,2022-08-11,Asia-Pacific,Beauty & Care,Mineral Sunscreen,SMB,Organic Search,1,31.7,31.7,24.28,7.42,4.2
+ORD-50205,2022-08-13,Europe,Electronics,Ultra HD Monitor,Enterprise,Affiliate,1,472.06,472.06,308.8,163.26,4.8
+ORD-50206,2022-08-14,North America,Home & Office,Coffee Maker,Consumer,Paid Ads,2,171.7,343.4,234.67,108.73,4.1
+ORD-50207,2022-08-15,Europe,Home & Office,Ergonomic Chair,SMB,Direct Web,4,343.77,1375.09,810.76,564.33,4.5
+ORD-50208,2022-08-17,North America,Electronics,Noise-Cancelling Headphones,Consumer,Paid Ads,2,262.41,524.81,298.94,225.87,4.3
+ORD-50209,2022-08-17,Europe,Apparel,Performance Jacket,Consumer,Organic Search,3,154.86,464.57,339.88,124.69,4.9
+ORD-50210,2022-08-17,Latin America,Home & Office,Standing Desk,Consumer,Paid Ads,5,595.44,2977.19,1462.14,1515.05,3.9
+ORD-50211,2022-08-18,Asia-Pacific,Electronics,Pro Laptop,Consumer,Paid Ads,1,1140.85,1140.85,832.99,307.86,3.9
+ORD-50212,2022-08-18,Europe,Beauty & Care,Mineral Sunscreen,Consumer,Affiliate,1,31.93,31.93,22.2,9.73,5.0
+ORD-50213,2022-08-18,Europe,Home & Office,Ergonomic Chair,SMB,Organic Search,1,363.85,363.85,289.69,74.16,3.6
+ORD-50214,2022-08-19,North America,Apparel,Trail Shoes,Consumer,Organic Search,2,125.15,250.31,182.7,67.61,2.8
+ORD-50215,2022-08-22,Europe,Electronics,Ultra HD Monitor,Enterprise,Organic Search,3,444.96,1334.88,710.57,624.31,3.8
+ORD-50216,2022-08-23,Asia-Pacific,Home & Office,Desk Lamp,Enterprise,Direct Web,2,66.72,133.44,94.61,38.83,
+ORD-50217,2022-08-26,Europe,Beauty & Care,Serum Pack,SMB,Paid Ads,1,81.69,81.69,39.23,42.46,5.0
+ORD-50218,2022-08-27,Europe,Electronics,Noise-Cancelling Headphones,Consumer,Organic Search,3,243.26,729.77,490.58,239.19,4.8
+ORD-50219,2022-08-28,Asia-Pacific,Beauty & Care,Face Cleanser,SMB,Organic Search,1,26.77,26.77,20.72,6.05,4.5
+ORD-50220,2022-08-29,North America,Electronics,Ultra HD Monitor,Enterprise,Organic Search,3,471.05,1413.14,962.37,450.77,4.4
+ORD-50221,2022-08-29,Europe,Home & Office,Standing Desk,Enterprise,Paid Ads,5,627.34,3136.68,1801.19,1335.49,4.1
+ORD-50222,2022-08-31,Asia-Pacific,Beauty & Care,Hydration Cream,SMB,Direct Web,1,45.29,45.29,28.2,17.09,
+ORD-50223,2022-09-03,North America,Home & Office,Desk Lamp,Consumer,Affiliate,1,67.28,67.28,41.67,25.61,4.7
+ORD-50224,2022-09-05,Asia-Pacific,Electronics,Smart Watch,Enterprise,Organic Search,2,294.31,588.62,392.34,196.28,3.1
+ORD-50225,2022-09-06,Latin America,Beauty & Care,Hydration Cream,Enterprise,Organic Search,2,42.78,85.56,66.65,18.91,5.0
+ORD-50226,2022-09-08,North America,Beauty & Care,Hydration Cream,SMB,Affiliate,1,46.0,46.0,24.84,21.16,3.3
+ORD-50227,2022-09-12,Europe,Electronics,Noise-Cancelling Headphones,Consumer,Paid Ads,3,260.42,781.27,601.58,179.69,5.0
+ORD-50228,2022-09-12,Europe,Electronics,Ultra HD Monitor,Consumer,Affiliate,2,447.65,895.3,459.76,435.54,3.7
+ORD-50229,2022-09-14,Europe,Apparel,Merino Sweater,Enterprise,Direct Web,4,106.9,427.58,262.43,165.15,3.6
+ORD-50230,2022-09-15,North America,Electronics,Pro Laptop,Consumer,Organic Search,2,1231.84,2463.69,1221.02,1242.67,4.0
+ORD-50231,2022-09-17,North America,Home & Office,Standing Desk,SMB,Affiliate,1,618.42,618.42,472.08,146.34,3.6
+ORD-50232,2022-09-17,North America,Electronics,Ultra HD Monitor,SMB,Organic Search,3,467.64,1402.91,817.78,585.13,
+ORD-50233,2022-09-19,Europe,Beauty & Care,Hydration Cream,SMB,Paid Ads,1,46.89,46.89,26.58,20.31,5.0
+ORD-50234,2022-09-19,North America,Apparel,Merino Sweater,Consumer,Organic Search,2,105.31,210.63,113.85,96.78,2.5
+ORD-50235,2022-09-20,Latin America,Beauty & Care,Face Cleanser,Consumer,Paid Ads,1,26.73,26.73,12.55,14.18,3.6
+ORD-50236,2022-09-20,Asia-Pacific,Electronics,Smart Watch,Consumer,Organic Search,1,287.29,287.29,144.91,142.38,3.8
+ORD-50237,2022-09-21,North America,Beauty & Care,Face Cleanser,Consumer,Organic Search,2,29.38,58.77,43.98,14.79,3.6
+ORD-50238,2022-09-22,Europe,Beauty & Care,Face Cleanser,Consumer,Paid Ads,2,27.04,54.08,,15.16,5.0
+ORD-50239,2022-09-25,Latin America,Home & Office,Coffee Maker,Enterprise,Direct Web,2,186.1,372.2,271.82,100.38,3.4
+ORD-50240,2022-09-28,Europe,Home & Office,Standing Desk,Consumer,Direct Web,1,590.03,590.03,348.48,241.55,3.0
+ORD-50241,2022-09-29,Europe,Beauty & Care,Face Cleanser,Consumer,Affiliate,3,28.97,86.92,46.86,40.06,5.0
+ORD-50242,2022-10-01,Asia-Pacific,Beauty & Care,Serum Pack,Consumer,Organic Search,1,85.07,85.07,46.39,38.68,3.3
+ORD-50243,2022-10-03,North America,Beauty & Care,Hydration Cream,Consumer,Paid Ads,8,45.99,367.96,254.82,113.14,4.7
+ORD-50244,2022-10-03,North America,Beauty & Care,Mineral Sunscreen,Consumer,Organic Search,2,31.42,62.84,32.52,30.32,4.5
+ORD-50245,2022-10-05,North America,Electronics,Ultra HD Monitor,Enterprise,Affiliate,1,463.43,463.43,283.15,180.28,3.8
+ORD-50246,2022-10-06,North America,Beauty & Care,Face Cleanser,SMB,Paid Ads,3,29.26,87.78,40.7,47.08,5.0
+ORD-50247,2022-10-07,Asia-Pacific,Electronics,Ultra HD Monitor,SMB,Affiliate,4,445.92,1783.7,1316.54,467.16,5.0
+ORD-50248,2022-10-08,Latin America,Home & Office,Ergonomic Chair,SMB,Organic Search,5,334.01,1670.06,1216.48,453.58,4.2
+ORD-50249,2022-10-09,Europe,Beauty & Care,Serum Pack,Consumer,Organic Search,1,84.67,84.67,62.5,22.17,4.2
+ORD-50250,2022-10-09,North America,Beauty & Care,Serum Pack,Consumer,Organic Search,3,85.27,255.82,191.0,64.82,3.2
+ORD-50251,2022-10-10,Europe,Beauty & Care,Face Cleanser,SMB,Direct Web,1,28.41,28.41,22.15,6.26,4.2
+ORD-50252,2022-10-11,North America,Electronics,Ultra HD Monitor,SMB,Organic Search,1,437.7,437.7,221.72,215.98,3.3
+ORD-50253,2022-10-13,Europe,Beauty & Care,Serum Pack,Consumer,Paid Ads,1,86.47,86.47,44.74,41.73,3.8
+ORD-50254,2022-10-13,North America,Apparel,Trail Shoes,SMB,Organic Search,1,124.58,124.58,87.67,36.91,3.8
+ORD-50255,2022-10-15,North America,Apparel,Performance Jacket,SMB,Direct Web,1,156.49,156.49,99.48,57.01,3.2
+ORD-50256,2022-10-16,Asia-Pacific,Home & Office,Desk Lamp,SMB,Organic Search,8,67.9,543.22,375.01,168.21,3.3
+ORD-50257,2022-10-18,Europe,Electronics,Smart Watch,Enterprise,Paid Ads,1,309.99,309.99,156.57,153.42,4.5
+ORD-50258,2022-10-21,Europe,Electronics,Noise-Cancelling Headphones,SMB,Direct Web,1,240.46,240.46,152.31,88.15,5.0
+ORD-50259,2022-10-25,Europe,Home & Office,Desk Lamp,SMB,Affiliate,5,63.65,318.27,192.97,125.3,4.2
+ORD-50260,2022-10-27,Asia-Pacific,Apparel,Performance Jacket,Consumer,Organic Search,1,158.47,158.47,106.85,51.62,4.5
+ORD-50261,2022-10-29,Asia-Pacific,Home & Office,Ergonomic Chair,SMB,Organic Search,1,362.81,362.81,170.12,192.69,4.7
+ORD-50262,2022-10-29,Asia-Pacific,Home & Office,Coffee Maker,Consumer,Direct Web,1,181.0,181.0,132.68,48.32,3.7
+ORD-50263,2022-10-30,North America,Beauty & Care,Serum Pack,SMB,Direct Web,1,86.94,86.94,41.34,45.6,
+ORD-50264,2022-11-03,North America,Beauty & Care,Face Cleanser,Consumer,Organic Search,3,26.82,80.45,57.16,23.29,5.0
+ORD-50265,2022-11-03,Asia-Pacific,Apparel,Performance Jacket,Enterprise,Affiliate,3,156.56,469.68,236.95,232.73,5.0
+ORD-50266,2022-11-03,Europe,Apparel,Trail Shoes,Consumer,Organic Search,1,130.61,130.61,98.8,31.81,4.3
+ORD-50267,2022-11-03,North America,Apparel,Performance Jacket,Enterprise,Direct Web,1,157.98,157.98,79.49,78.49,4.0
+ORD-50268,2022-11-10,North America,Home & Office,Ergonomic Chair,Consumer,Paid Ads,5,367.47,1837.34,1080.51,756.83,5.0
+ORD-50269,2022-11-12,North America,Home & Office,Ergonomic Chair,Enterprise,Organic Search,1,367.41,367.41,182.54,184.87,4.0
+ORD-50270,2022-11-12,North America,Home & Office,Coffee Maker,Consumer,Organic Search,2,180.71,361.41,245.38,116.03,4.2
+ORD-50271,2022-11-13,Asia-Pacific,Electronics,Noise-Cancelling Headphones,Enterprise,Paid Ads,4,245.92,983.67,694.71,288.96,4.6
+ORD-50272,2022-11-15,Asia-Pacific,Electronics,Smart Watch,Consumer,Direct Web,1,291.5,291.5,160.39,131.11,4.4
+ORD-50273,2022-11-17,Asia-Pacific,Beauty & Care,Hydration Cream,Enterprise,Paid Ads,1,46.95,46.95,35.16,11.79,4.3
+ORD-50274,2022-11-17,Europe,Home & Office,Standing Desk,Consumer,Direct Web,2,615.81,1231.62,569.25,662.37,5.0
+ORD-50275,2022-11-19,Asia-Pacific,Beauty & Care,Face Cleanser,Enterprise,Organic Search,2,28.77,57.53,43.31,14.22,4.2
+ORD-50276,2022-11-19,North America,Home & Office,Coffee Maker,SMB,Paid Ads,2,185.22,370.43,184.78,185.65,4.9
+ORD-50277,2022-11-20,Asia-Pacific,Electronics,Smart Watch,Consumer,Organic Search,1,294.85,294.85,159.72,135.13,3.8
+ORD-50278,2022-11-23,North America,Apparel,Performance Jacket,Enterprise,Direct Web,3,163.79,491.36,337.77,153.59,5.0
+ORD-50279,2022-11-23,North America,Beauty & Care,Hydration Cream,Enterprise,Organic Search,1,43.13,43.13,32.62,10.51,4.0
+ORD-50280,2022-11-24,Asia-Pacific,Beauty & Care,Face Cleanser,Enterprise,Direct Web,2,29.01,58.02,43.92,14.1,3.9
+ORD-50281,2022-11-24,North America,Beauty & Care,Face Cleanser,Consumer,Direct Web,2,28.46,56.92,41.55,15.37,3.4
+ORD-50282,2022-11-25,Europe,Beauty & Care,Face Cleanser,Consumer,Organic Search,1,28.78,28.78,14.72,14.06,3.7
+ORD-50283,2022-11-26,North America,Electronics,Pro Laptop,SMB,Organic Search,4,1227.1,4908.41,2963.55,1944.86,5.0
+ORD-50284,2022-11-27,North America,Home & Office,Desk Lamp,SMB,Affiliate,1,63.08,63.08,33.74,29.34,3.6
+ORD-50285,2022-11-29,North America,Home & Office,Standing Desk,SMB,Organic Search,2,606.61,1213.22,732.5,480.72,4.8
+ORD-50286,2022-12-01,North America,Beauty & Care,Hydration Cream,Consumer,Organic Search,4,46.81,187.23,,40.39,4.5
+ORD-50287,2022-12-01,Europe,Home & Office,Desk Lamp,Consumer,Paid Ads,2,64.6,129.21,70.46,58.75,3.4
+ORD-50288,2022-12-01,North America,Apparel,Classic Tee,Enterprise,Paid Ads,1,34.87,34.87,27.87,7.0,3.4
+ORD-50289,2022-12-02,Latin America,Apparel,Performance Jacket,SMB,Organic Search,3,157.5,472.49,284.79,187.7,4.0
+ORD-50290,2022-12-02,North America,Electronics,Noise-Cancelling Headphones,SMB,Direct Web,2,254.26,508.51,371.99,136.52,5.0
+ORD-50291,2022-12-02,Europe,Home & Office,Standing Desk,Consumer,Direct Web,1,591.57,591.57,357.56,234.01,3.9
+ORD-50292,2022-12-04,Asia-Pacific,Home & Office,Coffee Maker,Consumer,Affiliate,2,176.24,352.48,160.33,192.15,3.7
+ORD-50293,2022-12-05,Latin America,Apparel,Classic Tee,Enterprise,Paid Ads,1,36.3,36.3,16.35,19.95,3.6
+ORD-50294,2022-12-06,Asia-Pacific,Home & Office,Ergonomic Chair,Enterprise,Paid Ads,3,349.85,1049.56,741.05,308.51,5.0
+ORD-50295,2022-12-06,North America,Electronics,Noise-Cancelling Headphones,Consumer,Affiliate,1,256.47,256.47,129.48,126.99,5.0
+ORD-50296,2022-12-06,North America,Home & Office,Ergonomic Chair,SMB,Organic Search,1,341.03,341.03,200.18,140.85,3.9
+ORD-50297,2022-12-07,Asia-Pacific,Apparel,Trail Shoes,SMB,Organic Search,1,135.67,135.67,93.13,42.54,5.0
+ORD-50298,2022-12-09,North America,Electronics,Pro Laptop,SMB,Organic Search,2,1195.36,2390.71,1678.12,712.59,5.0
+ORD-50299,2022-12-13,North America,Home & Office,Standing Desk,SMB,Affiliate,2,616.87,1233.74,772.5,461.24,3.4
+ORD-50300,2022-12-14,Europe,Home & Office,Standing Desk,SMB,Organic Search,10,573.14,5731.41,2767.63,2963.78,5.0
+ORD-50301,2022-12-14,North America,Home & Office,Coffee Maker,SMB,Paid Ads,1,177.75,177.75,81.44,96.31,3.3
+ORD-50302,2022-12-14,North America,Home & Office,Standing Desk,Consumer,Direct Web,1,606.54,606.54,470.21,136.33,4.1
+ORD-50303,2022-12-15,Europe,Home & Office,Standing Desk,Enterprise,Affiliate,2,613.68,1227.35,974.98,252.37,4.0
+ORD-50304,2022-12-17,North America,Apparel,Trail Shoes,SMB,Direct Web,1,125.69,125.69,73.99,51.7,3.5
+ORD-50305,2022-12-19,Europe,Electronics,Smart Watch,SMB,Organic Search,1,287.61,287.61,210.59,77.02,3.8
+ORD-50306,2022-12-19,Latin America,Electronics,Smart Watch,SMB,Paid Ads,2,286.2,572.4,315.75,256.65,
+ORD-50307,2022-12-21,Europe,Home & Office,Desk Lamp,Enterprise,Organic Search,2,63.29,126.58,91.62,34.96,4.7
+ORD-50308,2022-12-22,Europe,Electronics,Noise-Cancelling Headphones,Consumer,Direct Web,1,262.03,262.03,172.32,89.71,4.4
+ORD-50309,2022-12-28,North America,Apparel,Merino Sweater,SMB,Paid Ads,2,111.0,221.99,106.46,115.53,4.3
+ORD-50310,2022-12-29,Europe,Home & Office,Standing Desk,Enterprise,Paid Ads,1,612.85,612.85,480.74,132.11,3.9
+ORD-50311,2022-12-29,Europe,Home & Office,Desk Lamp,Enterprise,Paid Ads,2,67.42,134.84,68.27,66.57,5.0
+ORD-50312,2022-12-30,Asia-Pacific,Home & Office,Ergonomic Chair,Consumer,Direct Web,2,365.15,730.3,445.08,285.22,4.1
+ORD-50313,2023-01-03,North America,Electronics,Ultra HD Monitor,Enterprise,Paid Ads,2,434.47,868.94,400.21,468.73,
+ORD-50314,2023-01-07,North America,Home & Office,Coffee Maker,Consumer,Organic Search,1,180.15,180.15,81.76,98.39,3.0
+ORD-50315,2023-01-07,North America,Beauty & Care,Hydration Cream,Consumer,Direct Web,1,45.14,45.14,20.54,24.6,3.1
+ORD-50316,2023-01-08,Europe,Electronics,Ultra HD Monitor,SMB,Organic Search,2,445.58,891.16,525.15,366.01,5.0
+ORD-50317,2023-01-08,Europe,Home & Office,Standing Desk,Consumer,Affiliate,2,623.12,1246.24,774.94,471.3,5.0
+ORD-50318,2023-01-11,Asia-Pacific,Electronics,Ultra HD Monitor,Consumer,Organic Search,1,429.98,429.98,219.76,210.22,3.4
+ORD-50319,2023-01-15,Latin America,Beauty & Care,Face Cleanser,SMB,Direct Web,1,26.85,26.85,19.52,7.33,3.8
+ORD-50320,2023-01-16,North America,Home & Office,Desk Lamp,SMB,Paid Ads,2,63.63,127.26,71.35,55.91,4.7
+ORD-50321,2023-01-16,North America,Electronics,Noise-Cancelling Headphones,SMB,Affiliate,1,238.89,238.89,139.31,99.58,3.2
+ORD-50322,2023-01-17,Asia-Pacific,Electronics,Pro Laptop,Consumer,Affiliate,1,1259.87,1259.87,617.73,642.14,2.9
+ORD-50323,2023-01-17,Europe,Home & Office,Standing Desk,Enterprise,Organic Search,1,612.89,612.89,357.73,255.16,3.1
+ORD-50324,2023-01-17,Asia-Pacific,Electronics,Ultra HD Monitor,Enterprise,Direct Web,2,452.89,905.78,710.17,195.61,4.1
+ORD-50325,2023-01-17,Europe,Beauty & Care,Serum Pack,Enterprise,Paid Ads,4,82.61,330.46,237.91,92.55,4.7
+ORD-50326,2023-01-19,Europe,Beauty & Care,Hydration Cream,Consumer,Organic Search,2,43.02,86.05,56.96,29.09,4.7
+ORD-50327,2023-01-20,Asia-Pacific,Electronics,Pro Laptop,SMB,Organic Search,2,1257.44,2514.89,1197.62,1317.27,4.8
+ORD-50328,2023-01-20,Europe,Home & Office,Ergonomic Chair,Enterprise,Paid Ads,2,365.42,730.84,402.82,328.02,4.3
+ORD-50329,2023-01-20,North America,Apparel,Performance Jacket,SMB,Direct Web,8,167.25,1337.96,630.69,707.27,4.3
+ORD-50330,2023-01-21,North America,Electronics,Pro Laptop,Consumer,Organic Search,1,1153.17,1153.17,622.02,531.15,4.6
+ORD-50331,2023-01-23,Latin America,Electronics,Noise-Cancelling Headphones,Enterprise,Paid Ads,2,246.89,493.78,383.13,110.65,4.1
+ORD-50332,2023-01-27,North America,Beauty & Care,Mineral Sunscreen,Consumer,Affiliate,2,33.41,66.83,52.27,14.56,4.5
+ORD-50333,2023-01-29,North America,Apparel,Merino Sweater,Consumer,Organic Search,1,111.15,111.15,84.8,26.35,4.3
+ORD-50334,2023-01-30,Europe,Apparel,Performance Jacket,Enterprise,Organic Search,4,165.06,660.22,520.16,140.06,3.6
+ORD-50335,2023-02-01,Europe,Electronics,Smart Watch,SMB,Paid Ads,1,304.96,304.96,144.76,160.2,4.4
+ORD-50336,2023-02-02,Asia-Pacific,Electronics,Smart Watch,SMB,Organic Search,2,297.88,595.77,363.8,231.97,5.0
+ORD-50337,2023-02-04,Asia-Pacific,Electronics,Ultra HD Monitor,SMB,Direct Web,1,441.08,441.08,284.95,156.13,4.9
+ORD-50338,2023-02-05,Europe,Electronics,Ultra HD Monitor,SMB,Paid Ads,4,434.43,1737.7,1371.62,366.08,3.1
+ORD-50339,2023-02-05,North America,Beauty & Care,Face Cleanser,SMB,Organic Search,5,27.06,135.29,90.46,44.83,3.7
+ORD-50340,2023-02-07,Asia-Pacific,Home & Office,Desk Lamp,Enterprise,Paid Ads,1,64.07,64.07,46.97,17.1,4.7
+ORD-50341,2023-02-07,North America,Apparel,Performance Jacket,Consumer,Paid Ads,3,160.98,482.93,251.15,231.78,4.5
+ORD-50342,2023-02-07,Europe,Home & Office,Coffee Maker,SMB,Direct Web,3,171.59,514.78,366.81,147.97,2.9
+ORD-50343,2023-02-09,Latin America,Electronics,Smart Watch,Enterprise,Paid Ads,1,295.53,295.53,153.12,142.41,4.9
+ORD-50344,2023-02-10,Latin America,Electronics,Smart Watch,SMB,Organic Search,2,297.71,595.42,336.27,259.15,4.6
+ORD-50345,2023-02-14,Europe,Electronics,Smart Watch,Consumer,Direct Web,1,302.01,302.01,170.33,131.68,4.3
+ORD-50346,2023-02-14,Asia-Pacific,Beauty & Care,Face Cleanser,SMB,Organic Search,1,28.92,28.92,20.17,8.75,5.0
+ORD-50347,2023-02-14,Europe,Electronics,Noise-Cancelling Headphones,SMB,Organic Search,2,248.61,497.21,390.63,106.58,4.3
+ORD-50348,2023-02-15,Europe,Electronics,Pro Laptop,Enterprise,Direct Web,1,1210.5,1210.5,964.26,246.24,4.6
+ORD-50349,2023-02-15,Europe,Beauty & Care,Hydration Cream,Consumer,Affiliate,1,44.68,44.68,26.67,18.01,3.2
+ORD-50350,2023-02-18,North America,Home & Office,Standing Desk,SMB,Organic Search,2,598.0,1196.0,884.67,311.33,2.6
+ORD-50351,2023-02-18,Europe,Home & Office,Coffee Maker,Consumer,Paid Ads,1,187.78,187.78,89.47,98.31,3.6
+ORD-50352,2023-02-20,Europe,Home & Office,Ergonomic Chair,Consumer,Direct Web,3,335.49,1006.46,723.0,283.46,3.3
+ORD-50353,2023-02-20,Europe,Home & Office,Coffee Maker,Consumer,Affiliate,2,173.28,346.55,249.69,96.86,4.5
+ORD-50354,2023-02-20,North America,Beauty & Care,Serum Pack,SMB,Affiliate,1,85.27,85.27,58.7,26.57,4.8
+ORD-50355,2023-02-21,Asia-Pacific,Beauty & Care,Face Cleanser,SMB,Direct Web,3,28.86,86.59,53.63,32.96,4.9
+ORD-50356,2023-02-22,North America,Electronics,Noise-Cancelling Headphones,Enterprise,Paid Ads,2,259.43,518.86,263.1,255.76,4.5
+ORD-50357,2023-02-24,North America,Home & Office,Desk Lamp,Consumer,Affiliate,1,67.95,67.95,32.94,35.01,3.7
+ORD-50358,2023-02-24,Europe,Beauty & Care,Hydration Cream,SMB,Organic Search,2,44.58,89.17,68.64,20.53,5.0
+ORD-50359,2023-02-25,Europe,Apparel,Merino Sweater,SMB,Direct Web,1,107.37,107.37,79.73,27.64,4.2
+ORD-50360,2023-02-26,Asia-Pacific,Apparel,Merino Sweater,Enterprise,Organic Search,1,115.32,115.32,60.59,54.73,4.4
+ORD-50361,2023-02-26,North America,Electronics,Noise-Cancelling Headphones,Consumer,Paid Ads,2,253.64,507.29,287.16,220.13,5.0
+ORD-50362,2023-03-01,Asia-Pacific,Electronics,Ultra HD Monitor,SMB,Organic Search,1,457.86,457.86,218.87,238.99,5.0
+ORD-50363,2023-03-02,North America,Home & Office,Ergonomic Chair,SMB,Organic Search,1,338.8,338.8,182.62,156.18,5.0
+ORD-50364,2023-03-06,Latin America,Apparel,Trail Shoes,SMB,Organic Search,2,136.08,272.16,190.8,81.36,3.9
+ORD-50365,2023-03-09,Latin America,Home & Office,Ergonomic Chair,SMB,Direct Web,2,334.21,668.42,424.57,243.85,4.6
+ORD-50366,2023-03-11,Latin America,Home & Office,Desk Lamp,SMB,Paid Ads,2,63.98,127.96,88.12,39.84,3.2
+ORD-50367,2023-03-13,North America,Apparel,Classic Tee,Consumer,Direct Web,1,36.36,36.36,19.59,16.77,2.6
+ORD-50368,2023-03-13,Latin America,Electronics,Noise-Cancelling Headphones,SMB,Direct Web,1,260.3,260.3,200.13,60.17,5.0
+ORD-50369,2023-03-18,Europe,Beauty & Care,Face Cleanser,Consumer,Affiliate,2,27.92,55.84,44.2,11.64,4.9
+ORD-50370,2023-03-20,Europe,Home & Office,Ergonomic Chair,Enterprise,Organic Search,4,357.88,1431.52,1103.68,327.84,
+ORD-50371,2023-03-20,North America,Apparel,Classic Tee,Enterprise,Paid Ads,1,36.59,36.59,27.31,9.28,5.0
+ORD-50372,2023-03-22,Latin America,Apparel,Merino Sweater,Enterprise,Organic Search,1,112.47,112.47,64.22,48.25,3.2
+ORD-50373,2023-03-23,North America,Electronics,Ultra HD Monitor,Consumer,Paid Ads,4,444.58,1778.33,1266.43,511.9,3.4
+ORD-50374,2023-03-23,Asia-Pacific,Apparel,Trail Shoes,Consumer,Organic Search,2,128.38,256.77,182.86,73.91,4.3
+ORD-50375,2023-03-25,North America,Electronics,Pro Laptop,Consumer,Organic Search,3,1256.46,3769.38,2807.33,962.05,3.3
+ORD-50376,2023-03-25,Europe,Home & Office,Ergonomic Chair,Enterprise,Organic Search,3,352.81,1058.43,845.75,212.68,5.0
+ORD-50377,2023-03-25,Europe,Electronics,Pro Laptop,SMB,Direct Web,1,1161.31,1161.31,706.49,454.82,4.6
+ORD-50378,2023-03-26,Asia-Pacific,Home & Office,Ergonomic Chair,Consumer,Direct Web,1,338.8,338.8,161.58,177.22,4.7
+ORD-50379,2023-03-29,North America,Home & Office,Desk Lamp,SMB,Organic Search,3,66.88,200.64,119.73,80.91,4.4
+ORD-50380,2023-03-30,Asia-Pacific,Apparel,Merino Sweater,SMB,Direct Web,1,110.36,110.36,80.69,29.67,3.9
+ORD-50381,2023-03-30,North America,Home & Office,Ergonomic Chair,Enterprise,Affiliate,3,363.14,1089.42,590.08,499.34,3.0
+ORD-50382,2023-03-30,Asia-Pacific,Beauty & Care,Hydration Cream,Consumer,Organic Search,2,46.38,92.76,65.89,26.87,3.9
+ORD-50383,2023-03-31,Latin America,Home & Office,Desk Lamp,Consumer,Direct Web,2,66.27,132.54,93.56,38.98,4.6
+ORD-50384,2023-04-02,Asia-Pacific,Electronics,Ultra HD Monitor,Consumer,Direct Web,3,449.01,1347.04,864.77,482.27,4.5
+ORD-50385,2023-04-03,North America,Apparel,Performance Jacket,SMB,Organic Search,1,159.05,159.05,109.58,49.47,4.6
+ORD-50386,2023-04-04,North America,Home & Office,Ergonomic Chair,Consumer,Organic Search,1,340.03,340.03,271.15,68.88,
+ORD-50387,2023-04-08,Europe,Electronics,Noise-Cancelling Headphones,Consumer,Organic Search,1,252.47,252.47,181.29,71.18,4.9
+ORD-50388,2023-04-10,North America,Home & Office,Desk Lamp,Enterprise,Paid Ads,1,65.91,65.91,31.35,34.56,4.4
+ORD-50389,2023-04-10,Asia-Pacific,Home & Office,Ergonomic Chair,Enterprise,Paid Ads,2,349.98,699.97,371.46,328.51,4.0
+ORD-50390,2023-04-11,North America,Electronics,Smart Watch,Consumer,Direct Web,3,313.39,940.17,740.12,200.05,3.8
+ORD-50391,2023-04-12,Europe,Home & Office,Desk Lamp,Consumer,Direct Web,3,65.22,195.67,151.35,44.32,3.2
+ORD-50392,2023-04-12,Europe,Electronics,Pro Laptop,SMB,Direct Web,3,1236.08,3708.23,2275.11,1433.12,4.6
+ORD-50393,2023-04-14,North America,Home & Office,Ergonomic Chair,SMB,Affiliate,1,363.89,363.89,269.26,94.63,5.0
+ORD-50394,2023-04-15,Europe,Apparel,Merino Sweater,SMB,Direct Web,4,109.48,437.92,221.98,215.94,5.0
+ORD-50395,2023-04-16,Asia-Pacific,Apparel,Performance Jacket,SMB,Paid Ads,1,155.04,155.04,103.16,51.88,3.3
+ORD-50396,2023-04-19,Asia-Pacific,Apparel,Performance Jacket,SMB,Paid Ads,1,160.74,160.74,92.42,68.32,4.4
+ORD-50397,2023-04-20,Europe,Beauty & Care,Mineral Sunscreen,Enterprise,Paid Ads,4,32.91,131.63,103.98,27.65,4.2
+ORD-50398,2023-04-23,Europe,Electronics,Ultra HD Monitor,Consumer,Affiliate,4,458.48,1833.93,1311.12,522.81,3.3
+ORD-50399,2023-04-27,Europe,Home & Office,Ergonomic Chair,Consumer,Paid Ads,2,360.74,721.48,464.85,256.63,2.4
+ORD-50400,2023-04-30,North America,Electronics,Smart Watch,Enterprise,Paid Ads,1,299.11,299.11,212.26,86.85,3.9
+ORD-50401,2023-04-30,North America,Beauty & Care,Face Cleanser,Consumer,Paid Ads,1,28.73,28.73,20.1,8.63,5.0
+ORD-50402,2023-04-30,North America,Home & Office,Standing Desk,SMB,Direct Web,2,578.28,1156.57,,282.57,5.0
+ORD-50403,2023-05-02,Europe,Home & Office,Ergonomic Chair,Enterprise,Direct Web,1,351.91,351.91,258.3,93.61,5.0
+ORD-50404,2023-05-02,Europe,Home & Office,Desk Lamp,Consumer,Organic Search,4,66.0,264.01,185.66,78.35,4.4
+ORD-50405,2023-05-02,North America,Electronics,Noise-Cancelling Headphones,Consumer,Paid Ads,2,249.22,498.43,261.22,237.21,
+ORD-50406,2023-05-06,Europe,Electronics,Ultra HD Monitor,SMB,Organic Search,1,450.45,450.45,322.18,128.27,4.5
+ORD-50407,2023-05-06,Europe,Beauty & Care,Mineral Sunscreen,SMB,Direct Web,2,33.54,67.08,52.44,14.64,3.3
+ORD-50408,2023-05-08,North America,Beauty & Care,Serum Pack,Consumer,Direct Web,1,87.92,87.92,70.22,17.7,4.3
+ORD-50409,2023-05-08,Europe,Electronics,Pro Laptop,Consumer,Paid Ads,1,1256.95,1256.95,833.61,423.34,
+ORD-50410,2023-05-09,Asia-Pacific,Apparel,Merino Sweater,SMB,Organic Search,4,114.83,459.31,265.95,193.36,5.0
+ORD-50411,2023-05-11,Asia-Pacific,Apparel,Classic Tee,Consumer,Organic Search,2,36.64,73.28,55.85,17.43,4.8
+ORD-50412,2023-05-11,North America,Home & Office,Ergonomic Chair,SMB,Affiliate,1,353.91,353.91,210.7,143.21,4.3
+ORD-50413,2023-05-13,North America,Apparel,Trail Shoes,Enterprise,Organic Search,4,126.2,504.81,327.25,177.56,2.6
+ORD-50414,2023-05-15,Europe,Home & Office,Ergonomic Chair,Consumer,Direct Web,1,335.72,335.72,196.49,139.23,5.0
+ORD-50415,2023-05-18,Europe,Electronics,Noise-Cancelling Headphones,Consumer,Organic Search,2,249.24,498.49,279.95,218.54,5.0
+ORD-50416,2023-05-18,North America,Home & Office,Coffee Maker,SMB,Direct Web,2,184.69,369.38,214.38,155.0,5.0
+ORD-50417,2023-05-19,Asia-Pacific,Beauty & Care,Serum Pack,Enterprise,Direct Web,1,82.34,82.34,60.57,21.77,3.4
+ORD-50418,2023-05-19,Latin America,Electronics,Ultra HD Monitor,Consumer,Organic Search,1,432.99,432.99,,217.95,5.0
+ORD-50419,2023-05-19,North America,Electronics,Pro Laptop,SMB,Affiliate,2,1244.42,2488.84,1880.09,608.75,3.1
+ORD-50420,2023-05-19,North America,Home & Office,Coffee Maker,Enterprise,Paid Ads,4,171.03,684.12,489.49,194.63,2.5
+ORD-50421,2023-05-22,North America,Home & Office,Standing Desk,Enterprise,Direct Web,1,619.91,619.91,284.73,335.18,3.6
+ORD-50422,2023-05-22,Europe,Home & Office,Desk Lamp,Enterprise,Organic Search,1,63.08,63.08,45.54,17.54,4.5
+ORD-50423,2023-05-22,Asia-Pacific,Apparel,Merino Sweater,Enterprise,Paid Ads,2,111.67,223.35,138.76,84.59,3.7
+ORD-50424,2023-05-22,North America,Home & Office,Standing Desk,Enterprise,Paid Ads,5,597.6,2988.0,2161.8,826.2,5.0
+ORD-50425,2023-05-23,North America,Apparel,Trail Shoes,Consumer,Affiliate,1,134.24,134.24,70.57,63.67,4.7
+ORD-50426,2023-05-23,Europe,Apparel,Merino Sweater,Consumer,Organic Search,2,107.4,214.8,142.27,72.53,3.6
+ORD-50427,2023-05-24,Europe,Home & Office,Coffee Maker,SMB,Paid Ads,1,184.45,184.45,141.7,42.75,4.2
+ORD-50428,2023-05-24,Latin America,Home & Office,Coffee Maker,Enterprise,Paid Ads,3,183.79,551.38,283.97,267.41,4.4
+ORD-50429,2023-05-24,North America,Home & Office,Standing Desk,Consumer,Organic Search,2,583.65,1167.31,919.67,247.64,4.2
+ORD-50430,2023-05-26,North America,Electronics,Ultra HD Monitor,SMB,Paid Ads,4,456.2,1824.79,1047.85,776.94,2.7
+ORD-50431,2023-05-27,North America,Home & Office,Standing Desk,Enterprise,Organic Search,3,629.55,1888.64,930.72,957.92,4.3
+ORD-50432,2023-05-29,Europe,Home & Office,Coffee Maker,SMB,Organic Search,3,187.88,563.65,374.11,189.54,3.7
+ORD-50433,2023-05-29,Asia-Pacific,Electronics,Ultra HD Monitor,Consumer,Affiliate,5,462.67,2313.37,1401.05,912.32,4.2
+ORD-50434,2023-05-31,Asia-Pacific,Home & Office,Ergonomic Chair,Consumer,Direct Web,1,350.54,350.54,274.63,75.91,2.4
+ORD-50435,2023-06-01,Latin America,Electronics,Noise-Cancelling Headphones,Enterprise,Affiliate,3,260.98,782.93,415.7,367.23,3.8
+ORD-50436,2023-06-02,North America,Apparel,Performance Jacket,SMB,Organic Search,2,167.64,335.28,259.57,75.71,5.0
+ORD-50437,2023-06-02,Europe,Beauty & Care,Face Cleanser,SMB,Paid Ads,1,27.09,27.09,14.21,12.88,5.0
+ORD-50438,2023-06-03,Asia-Pacific,Beauty & Care,Hydration Cream,Consumer,Paid Ads,3,43.72,131.16,88.05,43.11,3.6
+ORD-50439,2023-06-04,Asia-Pacific,Beauty & Care,Hydration Cream,SMB,Affiliate,1,44.11,44.11,34.5,9.61,3.6
+ORD-50440,2023-06-06,North America,Electronics,Noise-Cancelling Headphones,Consumer,Organic Search,1,244.46,244.46,171.12,73.34,4.4
+ORD-50441,2023-06-07,Europe,Electronics,Noise-Cancelling Headphones,Consumer,Affiliate,1,246.79,246.79,185.05,61.74,3.3
+ORD-50442,2023-06-08,Asia-Pacific,Electronics,Smart Watch,SMB,Organic Search,1,304.65,304.65,172.14,132.51,3.4
+ORD-50443,2023-06-10,North America,Electronics,Ultra HD Monitor,Enterprise,Organic Search,5,461.66,2308.28,1570.72,737.56,4.4
+ORD-50444,2023-06-12,Europe,Beauty & Care,Hydration Cream,Enterprise,Paid Ads,1,47.15,47.15,37.0,10.15,3.0
+ORD-50445,2023-06-16,North America,Apparel,Performance Jacket,SMB,Organic Search,1,167.5,167.5,83.8,83.7,5.0
+ORD-50446,2023-06-17,North America,Electronics,Ultra HD Monitor,Consumer,Direct Web,1,468.33,468.33,248.39,219.94,3.7
+ORD-50447,2023-06-17,Latin America,Beauty & Care,Mineral Sunscreen,SMB,Paid Ads,3,31.99,95.98,50.31,45.67,4.1
+ORD-50448,2023-06-18,North America,Apparel,Trail Shoes,Enterprise,Organic Search,4,129.61,518.45,328.29,190.16,5.0
+ORD-50449,2023-06-18,Latin America,Electronics,Smart Watch,SMB,Paid Ads,1,289.08,289.08,219.99,69.09,3.9
+ORD-50450,2023-06-19,Europe,Beauty & Care,Mineral Sunscreen,Enterprise,Paid Ads,8,30.59,244.71,180.59,64.12,5.0
+ORD-50451,2023-06-19,Europe,Apparel,Performance Jacket,Consumer,Affiliate,1,166.98,166.98,105.66,61.32,3.7
+ORD-50452,2023-06-19,Latin America,Apparel,Merino Sweater,Enterprise,Organic Search,1,113.14,113.14,76.45,36.69,4.4
+ORD-50453,2023-06-20,North America,Home & Office,Desk Lamp,Consumer,Organic Search,3,65.01,195.04,154.94,40.1,4.1
+ORD-50454,2023-06-22,North America,Home & Office,Ergonomic Chair,Consumer,Organic Search,1,334.44,334.44,256.33,78.11,
+ORD-50455,2023-06-25,North America,Apparel,Trail Shoes,SMB,Organic Search,5,135.47,677.35,450.76,226.59,4.2
+ORD-50456,2023-06-26,Asia-Pacific,Electronics,Smart Watch,SMB,Organic Search,3,302.02,906.07,633.73,272.34,3.6
+ORD-50457,2023-06-26,Asia-Pacific,Electronics,Ultra HD Monitor,Enterprise,Organic Search,4,465.61,1862.45,1322.61,539.84,3.5
+ORD-50458,2023-06-30,Asia-Pacific,Electronics,Smart Watch,SMB,Direct Web,5,308.91,1544.56,804.85,739.71,4.1
+ORD-50459,2023-07-05,Asia-Pacific,Apparel,Performance Jacket,SMB,Organic Search,1,155.0,155.0,113.61,41.39,5.0
+ORD-50460,2023-07-07,Asia-Pacific,Electronics,Pro Laptop,Consumer,Affiliate,1,1162.38,1162.38,695.02,467.36,5.0
+ORD-50461,2023-07-10,North America,Apparel,Trail Shoes,SMB,Organic Search,5,135.7,678.48,352.13,326.35,3.5
+ORD-50462,2023-07-11,Europe,Home & Office,Ergonomic Chair,Enterprise,Paid Ads,1,362.91,362.91,228.4,134.51,3.3
+ORD-50463,2023-07-15,North America,Home & Office,Coffee Maker,Consumer,Direct Web,2,187.62,375.24,230.67,144.57,3.3
+ORD-50464,2023-07-17,Europe,Home & Office,Standing Desk,Consumer,Direct Web,1,626.2,626.2,355.99,270.21,3.7
+ORD-50465,2023-07-17,Europe,Electronics,Noise-Cancelling Headphones,Enterprise,Direct Web,3,257.52,772.55,578.28,194.27,4.3
+ORD-50466,2023-07-19,North America,Home & Office,Desk Lamp,Consumer,Direct Web,1,64.58,64.58,42.95,21.63,5.0
+ORD-50467,2023-07-20,Latin America,Home & Office,Ergonomic Chair,Enterprise,Organic Search,5,367.06,1835.28,1086.7,748.58,
+ORD-50468,2023-07-21,Europe,Electronics,Ultra HD Monitor,Enterprise,Direct Web,2,452.14,904.29,662.01,242.28,4.7
+ORD-50469,2023-07-21,North America,Electronics,Smart Watch,Consumer,Affiliate,3,296.26,888.78,489.02,399.76,5.0
+ORD-50470,2023-07-22,Latin America,Beauty & Care,Mineral Sunscreen,SMB,Affiliate,2,30.72,61.43,47.3,14.13,3.7
+ORD-50471,2023-07-22,North America,Electronics,Noise-Cancelling Headphones,Consumer,Paid Ads,2,262.47,524.94,361.64,163.3,3.6
+ORD-50472,2023-07-25,North America,Electronics,Smart Watch,Enterprise,Organic Search,3,302.43,907.29,669.76,237.53,4.2
+ORD-50473,2023-07-26,Latin America,Home & Office,Ergonomic Chair,Consumer,Paid Ads,1,351.45,351.45,238.71,112.74,4.9
+ORD-50474,2023-07-27,Europe,Beauty & Care,Hydration Cream,Consumer,Affiliate,3,44.27,132.8,82.78,50.02,3.0
+ORD-50475,2023-07-28,Europe,Electronics,Ultra HD Monitor,SMB,Paid Ads,1,445.38,445.38,258.9,186.48,3.7
+ORD-50476,2023-07-29,North America,Electronics,Pro Laptop,SMB,Organic Search,4,1216.32,4865.3,3856.27,1009.03,4.9
+ORD-50477,2023-08-02,Europe,Electronics,Ultra HD Monitor,Consumer,Direct Web,1,471.86,471.86,228.31,243.55,2.7
+ORD-50478,2023-08-03,North America,Apparel,Classic Tee,Enterprise,Organic Search,2,36.68,73.37,46.94,26.43,2.4
+ORD-50479,2023-08-05,North America,Electronics,Noise-Cancelling Headphones,Consumer,Affiliate,1,251.66,251.66,157.93,93.73,4.3
+ORD-50480,2023-08-05,North America,Electronics,Ultra HD Monitor,SMB,Paid Ads,3,455.66,1366.98,1086.73,280.25,4.1
+ORD-50481,2023-08-06,North America,Beauty & Care,Face Cleanser,Consumer,Paid Ads,1,28.8,28.8,14.37,14.43,
+ORD-50482,2023-08-08,North America,Home & Office,Standing Desk,SMB,Direct Web,1,585.17,585.17,336.84,248.33,3.9
+ORD-50483,2023-08-08,Latin America,Beauty & Care,Serum Pack,SMB,Organic Search,3,84.72,254.17,124.76,129.41,4.2
+ORD-50484,2023-08-11,Asia-Pacific,Apparel,Classic Tee,SMB,Paid Ads,3,36.69,110.07,70.99,39.08,2.9
+ORD-50485,2023-08-11,Latin America,Electronics,Ultra HD Monitor,Enterprise,Paid Ads,2,468.15,936.31,650.15,286.16,4.3
+ORD-50486,2023-08-12,North America,Home & Office,Coffee Maker,Enterprise,Organic Search,2,185.89,371.78,193.06,178.72,3.7
+ORD-50487,2023-08-12,North America,Electronics,Ultra HD Monitor,Consumer,Paid Ads,2,462.49,924.98,723.57,201.41,3.0
+ORD-50488,2023-08-13,North America,Beauty & Care,Mineral Sunscreen,SMB,Affiliate,2,30.99,61.99,29.33,32.66,4.2
+ORD-50489,2023-08-13,North America,Home & Office,Standing Desk,Consumer,Affiliate,3,590.09,1770.28,1181.44,588.84,4.0
+ORD-50490,2023-08-14,Asia-Pacific,Beauty & Care,Mineral Sunscreen,Consumer,Affiliate,2,33.54,67.09,30.58,36.51,4.6
+ORD-50491,2023-08-14,North America,Home & Office,Standing Desk,Enterprise,Paid Ads,2,574.41,1148.81,839.21,309.6,4.5
+ORD-50492,2023-08-15,North America,Home & Office,Ergonomic Chair,Enterprise,Affiliate,2,362.53,725.05,456.91,268.14,3.7
+ORD-50493,2023-08-16,Europe,Electronics,Pro Laptop,SMB,Direct Web,2,1144.28,2288.57,1540.58,747.99,4.1
+ORD-50494,2023-08-16,Latin America,Home & Office,Coffee Maker,Consumer,Direct Web,4,189.0,756.0,529.74,226.26,4.4
+ORD-50495,2023-08-18,North America,Home & Office,Desk Lamp,SMB,Direct Web,1,62.04,62.04,38.55,23.49,3.8
+ORD-50496,2023-08-22,Asia-Pacific,Electronics,Smart Watch,SMB,Direct Web,1,309.85,309.85,203.17,106.68,4.7
+ORD-50497,2023-08-22,North America,Apparel,Performance Jacket,Consumer,Paid Ads,1,158.2,158.2,72.6,85.6,3.8
+ORD-50498,2023-08-26,Europe,Electronics,Smart Watch,Enterprise,Paid Ads,1,304.69,304.69,196.86,107.83,4.5
+ORD-50499,2023-08-27,North America,Electronics,Pro Laptop,Consumer,Paid Ads,1,1171.8,1171.8,839.85,331.95,4.8
+ORD-50500,2023-08-29,Europe,Apparel,Merino Sweater,Consumer,Direct Web,2,105.45,210.89,151.15,59.74,5.0
+ORD-50501,2023-08-29,North America,Electronics,Pro Laptop,Consumer,Affiliate,1,1253.27,1253.27,583.62,669.65,4.8
+ORD-50502,2023-08-29,Europe,Electronics,Pro Laptop,Enterprise,Direct Web,1,1188.04,1188.04,879.02,309.02,3.4
+ORD-50503,2023-08-30,Asia-Pacific,Electronics,Smart Watch,Consumer,Organic Search,2,313.76,627.53,300.6,326.93,5.0
+ORD-50504,2023-08-31,Latin America,Electronics,Ultra HD Monitor,SMB,Affiliate,2,457.64,915.28,423.25,492.03,3.9
+ORD-50505,2023-09-01,Europe,Electronics,Smart Watch,Consumer,Paid Ads,1,300.54,300.54,168.07,132.47,2.6
+ORD-50506,2023-09-02,North America,Electronics,Smart Watch,SMB,Organic Search,4,295.73,1182.92,566.79,616.13,4.1
+ORD-50507,2023-09-04,Europe,Electronics,Pro Laptop,Consumer,Direct Web,1,1222.93,1222.93,902.04,320.89,5.0
+ORD-50508,2023-09-05,North America,Home & Office,Ergonomic Chair,Enterprise,Paid Ads,3,357.32,1071.97,752.95,319.02,5.0
+ORD-50509,2023-09-07,Asia-Pacific,Home & Office,Coffee Maker,Consumer,Organic Search,4,174.65,698.61,539.05,159.56,5.0
+ORD-50510,2023-09-07,Asia-Pacific,Home & Office,Standing Desk,SMB,Affiliate,4,593.62,2374.49,,1132.55,3.1
+ORD-50511,2023-09-09,Europe,Electronics,Pro Laptop,Enterprise,Organic Search,5,1253.02,6265.08,4562.19,1702.89,4.4
+ORD-50512,2023-09-14,Europe,Home & Office,Desk Lamp,SMB,Organic Search,1,64.67,64.67,41.08,23.59,4.4
+ORD-50513,2023-09-14,North America,Apparel,Merino Sweater,Enterprise,Paid Ads,8,108.64,869.14,585.02,284.12,3.9
+ORD-50514,2023-09-14,North America,Electronics,Noise-Cancelling Headphones,SMB,Organic Search,3,251.03,753.1,348.51,404.59,4.4
+ORD-50515,2023-09-15,Europe,Apparel,Merino Sweater,Enterprise,Paid Ads,1,113.07,113.07,85.56,27.51,4.0
+ORD-50516,2023-09-16,Europe,Electronics,Ultra HD Monitor,Consumer,Direct Web,1,449.0,449.0,241.58,207.42,5.0
+ORD-50517,2023-09-17,North America,Electronics,Noise-Cancelling Headphones,Consumer,Direct Web,3,249.37,748.12,377.77,370.35,4.2
+ORD-50518,2023-09-17,Europe,Electronics,Noise-Cancelling Headphones,Consumer,Direct Web,2,260.78,521.57,408.59,112.98,3.4
+ORD-50519,2023-09-22,North America,Electronics,Smart Watch,Consumer,Affiliate,4,295.47,1181.9,770.61,411.29,3.5
+ORD-50520,2023-09-23,Europe,Electronics,Ultra HD Monitor,SMB,Organic Search,1,432.47,432.47,337.38,95.09,4.6
+ORD-50521,2023-09-24,Europe,Home & Office,Coffee Maker,Consumer,Paid Ads,2,180.73,361.45,166.02,195.43,5.0
+ORD-50522,2023-09-24,Europe,Apparel,Performance Jacket,Consumer,Affiliate,2,153.25,306.49,236.97,69.52,4.3
+ORD-50523,2023-09-25,Europe,Electronics,Noise-Cancelling Headphones,SMB,Organic Search,2,259.01,518.02,376.68,141.34,4.5
+ORD-50524,2023-09-25,Europe,Home & Office,Standing Desk,SMB,Organic Search,2,597.97,1195.95,879.92,316.03,3.9
+ORD-50525,2023-09-25,Asia-Pacific,Home & Office,Standing Desk,SMB,Paid Ads,1,578.75,578.75,374.78,203.97,4.7
+ORD-50526,2023-09-29,North America,Home & Office,Standing Desk,SMB,Paid Ads,2,580.14,1160.28,666.11,494.17,5.0
+ORD-50527,2023-09-29,North America,Apparel,Performance Jacket,SMB,Organic Search,2,155.61,311.23,153.69,157.54,4.8
+ORD-50528,2023-09-30,North America,Electronics,Ultra HD Monitor,Enterprise,Organic Search,2,465.59,931.17,527.36,403.81,3.7
+ORD-50529,2023-09-30,Europe,Electronics,Ultra HD Monitor,Consumer,Paid Ads,3,455.24,1365.71,1038.15,327.56,4.1
+ORD-50530,2023-10-01,Latin America,Electronics,Smart Watch,Consumer,Affiliate,2,302.5,605.0,394.05,210.95,4.6
+ORD-50531,2023-10-01,North America,Apparel,Merino Sweater,Enterprise,Organic Search,1,109.1,109.1,72.96,36.14,3.6
+ORD-50532,2023-10-04,Latin America,Electronics,Smart Watch,Enterprise,Organic Search,1,310.74,310.74,,135.72,3.5
+ORD-50533,2023-10-06,North America,Home & Office,Standing Desk,Enterprise,Paid Ads,10,582.05,5820.45,3338.66,2481.79,4.8
+ORD-50534,2023-10-06,Europe,Apparel,Performance Jacket,Consumer,Paid Ads,2,154.94,309.88,220.3,89.58,4.4
+ORD-50535,2023-10-06,Europe,Home & Office,Standing Desk,Consumer,Direct Web,4,595.89,2383.58,1745.43,638.15,4.6
+ORD-50536,2023-10-06,North America,Home & Office,Ergonomic Chair,Enterprise,Organic Search,1,358.05,358.05,247.84,110.21,4.5
+ORD-50537,2023-10-10,North America,Apparel,Merino Sweater,Consumer,Paid Ads,2,109.8,219.61,165.29,54.32,4.5
+ORD-50538,2023-10-11,Europe,Home & Office,Standing Desk,Enterprise,Direct Web,2,572.25,1144.5,897.29,247.21,3.2
+ORD-50539,2023-10-12,Asia-Pacific,Electronics,Smart Watch,Consumer,Paid Ads,2,298.95,597.9,325.26,272.64,5.0
+ORD-50540,2023-10-12,North America,Apparel,Merino Sweater,Consumer,Paid Ads,4,114.84,459.34,232.31,227.03,3.4
+ORD-50541,2023-10-12,North America,Electronics,Noise-Cancelling Headphones,Consumer,Organic Search,1,250.56,250.56,187.15,63.41,3.1
+ORD-50542,2023-10-14,North America,Electronics,Pro Laptop,SMB,Direct Web,2,1238.19,2476.37,,844.28,
+ORD-50543,2023-10-15,North America,Apparel,Performance Jacket,SMB,Paid Ads,1,157.93,157.93,78.62,79.31,3.6
+ORD-50544,2023-10-16,North America,Apparel,Classic Tee,SMB,Organic Search,1,35.8,35.8,26.61,9.19,3.2
+ORD-50545,2023-10-17,North America,Electronics,Smart Watch,Consumer,Direct Web,3,311.21,933.64,573.45,360.19,2.3
+ORD-50546,2023-10-17,Asia-Pacific,Apparel,Performance Jacket,Consumer,Paid Ads,1,157.53,157.53,94.56,62.97,3.1
+ORD-50547,2023-10-18,North America,Electronics,Pro Laptop,Consumer,Organic Search,1,1146.37,1146.37,749.42,396.95,3.9
+ORD-50548,2023-10-19,Europe,Electronics,Pro Laptop,Enterprise,Paid Ads,2,1256.24,2512.48,1797.06,715.42,3.6
+ORD-50549,2023-10-19,Europe,Apparel,Classic Tee,Enterprise,Paid Ads,2,34.99,69.99,36.54,33.45,3.9
+ORD-50550,2023-10-19,North America,Apparel,Merino Sweater,SMB,Direct Web,1,104.65,104.65,79.22,25.43,3.6
+ORD-50551,2023-10-19,North America,Home & Office,Coffee Maker,Consumer,Direct Web,3,177.11,531.34,389.74,141.6,4.8
+ORD-50552,2023-10-22,Europe,Home & Office,Desk Lamp,Enterprise,Organic Search,2,66.95,133.9,86.21,47.69,3.8
+ORD-50553,2023-10-24,North America,Apparel,Trail Shoes,Consumer,Direct Web,2,133.66,267.32,153.3,114.02,2.9
+ORD-50554,2023-10-24,North America,Electronics,Smart Watch,Enterprise,Paid Ads,1,304.76,304.76,217.62,87.14,4.1
+ORD-50555,2023-10-27,Latin America,Apparel,Classic Tee,Enterprise,Paid Ads,1,36.67,36.67,18.36,18.31,2.0
+ORD-50556,2023-10-27,North America,Home & Office,Coffee Maker,SMB,Paid Ads,2,187.25,374.51,184.33,190.18,3.4
+ORD-50557,2023-10-27,North America,Apparel,Merino Sweater,Consumer,Paid Ads,4,110.62,442.47,225.36,217.11,4.4
+ORD-50558,2023-10-30,North America,Apparel,Trail Shoes,SMB,Organic Search,2,123.9,247.8,143.78,104.02,4.2
+ORD-50559,2023-10-30,Asia-Pacific,Electronics,Noise-Cancelling Headphones,Enterprise,Direct Web,5,260.16,1300.8,787.48,513.32,4.1
+ORD-50560,2023-10-31,Asia-Pacific,Apparel,Merino Sweater,Consumer,Paid Ads,3,105.32,315.97,219.35,96.62,5.0
+ORD-50561,2023-10-31,Asia-Pacific,Home & Office,Coffee Maker,Consumer,Organic Search,1,174.01,174.01,104.75,69.26,4.7
+ORD-50562,2023-10-31,North America,Home & Office,Coffee Maker,SMB,Direct Web,5,171.39,856.94,468.83,388.11,4.3
+ORD-50563,2023-11-01,Europe,Electronics,Noise-Cancelling Headphones,Consumer,Paid Ads,4,238.87,955.49,715.77,239.72,4.0
+ORD-50564,2023-11-01,Europe,Home & Office,Desk Lamp,SMB,Direct Web,2,63.31,126.63,84.85,41.78,5.0
+ORD-50565,2023-11-01,Asia-Pacific,Electronics,Pro Laptop,Consumer,Affiliate,2,1163.63,2327.26,1150.77,1176.49,4.2
+ORD-50566,2023-11-02,Asia-Pacific,Electronics,Ultra HD Monitor,Consumer,Affiliate,1,438.91,438.91,303.35,135.56,5.0
+ORD-50567,2023-11-03,North America,Beauty & Care,Serum Pack,SMB,Direct Web,8,88.1,704.79,463.45,241.34,4.7
+ORD-50568,2023-11-03,Europe,Electronics,Ultra HD Monitor,Consumer,Organic Search,1,465.46,465.46,278.05,187.41,4.6
+ORD-50569,2023-11-06,North America,Home & Office,Desk Lamp,SMB,Direct Web,1,66.5,66.5,43.04,23.46,4.1
+ORD-50570,2023-11-06,Europe,Electronics,Pro Laptop,Consumer,Paid Ads,3,1186.67,3560.02,2645.04,914.98,5.0
+ORD-50571,2023-11-08,Europe,Apparel,Trail Shoes,Consumer,Affiliate,3,134.64,403.93,289.16,114.77,4.4
+ORD-50572,2023-11-08,Europe,Home & Office,Ergonomic Chair,Enterprise,Paid Ads,1,363.85,363.85,187.64,176.21,3.7
+ORD-50573,2023-11-09,Latin America,Beauty & Care,Face Cleanser,Consumer,Paid Ads,1,28.58,28.58,19.94,8.64,4.3
+ORD-50574,2023-11-11,Europe,Home & Office,Desk Lamp,Consumer,Direct Web,1,62.07,62.07,34.36,27.71,5.0
+ORD-50575,2023-11-14,Asia-Pacific,Beauty & Care,Mineral Sunscreen,Consumer,Organic Search,2,30.87,61.73,42.04,19.69,4.4
+ORD-50576,2023-11-17,North America,Electronics,Noise-Cancelling Headphones,Enterprise,Direct Web,1,243.63,243.63,150.52,93.11,4.6
+ORD-50577,2023-11-19,Asia-Pacific,Electronics,Ultra HD Monitor,SMB,Paid Ads,2,459.46,918.91,544.59,374.32,2.3
+ORD-50578,2023-11-21,North America,Electronics,Ultra HD Monitor,Enterprise,Organic Search,4,446.71,1786.85,1145.83,641.02,4.8
+ORD-50579,2023-11-24,Latin America,Electronics,Noise-Cancelling Headphones,Consumer,Paid Ads,1,251.54,251.54,165.8,85.74,5.0
+ORD-50580,2023-11-25,North America,Apparel,Merino Sweater,Enterprise,Direct Web,2,105.05,210.11,106.67,103.44,4.3
+ORD-50581,2023-11-25,Asia-Pacific,Apparel,Classic Tee,Enterprise,Direct Web,5,34.46,172.3,105.32,66.98,3.5
+ORD-50582,2023-11-26,North America,Electronics,Smart Watch,SMB,Direct Web,1,291.64,291.64,156.88,134.76,3.0
+ORD-50583,2023-11-27,North America,Electronics,Pro Laptop,Enterprise,Paid Ads,2,1153.84,2307.68,1747.35,560.33,3.2
+ORD-50584,2023-11-27,North America,Home & Office,Coffee Maker,Enterprise,Organic Search,1,187.77,187.77,131.24,56.53,2.8
+ORD-50585,2023-11-28,North America,Electronics,Pro Laptop,Consumer,Direct Web,2,1202.22,2404.44,1346.27,1058.17,5.0
+ORD-50586,2023-11-28,North America,Electronics,Smart Watch,Consumer,Direct Web,3,297.52,892.57,576.95,315.62,4.5
+ORD-50587,2023-11-29,North America,Home & Office,Desk Lamp,Enterprise,Direct Web,3,65.21,195.63,155.54,40.09,4.3
+ORD-50588,2023-11-29,Europe,Home & Office,Coffee Maker,Consumer,Affiliate,1,175.77,175.77,113.38,62.39,4.0
+ORD-50589,2023-11-30,North America,Apparel,Classic Tee,Enterprise,Direct Web,2,36.1,72.2,46.73,25.47,4.5
+ORD-50590,2023-12-02,Asia-Pacific,Beauty & Care,Mineral Sunscreen,Enterprise,Organic Search,2,32.48,64.96,35.66,29.3,3.2
+ORD-50591,2023-12-02,Asia-Pacific,Home & Office,Coffee Maker,SMB,Organic Search,1,188.94,188.94,114.41,74.53,4.7
+ORD-50592,2023-12-03,Asia-Pacific,Apparel,Classic Tee,Enterprise,Organic Search,2,35.97,71.93,49.46,22.47,3.7
+ORD-50593,2023-12-03,Europe,Electronics,Pro Laptop,Consumer,Direct Web,1,1195.12,1195.12,607.34,587.78,5.0
+ORD-50594,2023-12-03,Latin America,Home & Office,Coffee Maker,SMB,Paid Ads,1,187.44,187.44,114.57,72.87,4.0
+ORD-50595,2023-12-04,North America,Home & Office,Coffee Maker,SMB,Affiliate,3,175.91,527.74,241.67,286.07,4.1
+ORD-50596,2023-12-05,North America,Home & Office,Standing Desk,Consumer,Direct Web,1,608.32,608.32,323.72,284.6,4.0
+ORD-50597,2023-12-06,North America,Home & Office,Coffee Maker,Enterprise,Organic Search,2,187.03,374.07,189.06,185.01,4.5
+ORD-50598,2023-12-07,Asia-Pacific,Electronics,Ultra HD Monitor,Enterprise,Paid Ads,1,455.87,455.87,303.08,152.79,3.5
+ORD-50599,2023-12-07,North America,Apparel,Merino Sweater,Consumer,Paid Ads,2,113.61,227.22,148.64,78.58,4.7
+ORD-50600,2023-12-10,Europe,Electronics,Ultra HD Monitor,SMB,Paid Ads,2,464.11,928.22,485.55,442.67,4.2
+ORD-50601,2023-12-10,Europe,Home & Office,Standing Desk,Consumer,Direct Web,1,597.96,597.96,331.07,266.89,3.6
+ORD-50602,2023-12-11,Europe,Beauty & Care,Mineral Sunscreen,Enterprise,Paid Ads,5,31.34,156.69,125.29,31.4,4.7
+ORD-50603,2023-12-11,Asia-Pacific,Electronics,Ultra HD Monitor,Enterprise,Affiliate,1,469.4,469.4,373.96,95.44,5.0
+ORD-50604,2023-12-11,North America,Beauty & Care,Serum Pack,Consumer,Paid Ads,1,82.09,82.09,40.39,41.7,4.6
+ORD-50605,2023-12-12,Europe,Apparel,Performance Jacket,Consumer,Organic Search,1,158.0,158.0,77.18,80.82,3.1
+ORD-50606,2023-12-12,Asia-Pacific,Apparel,Merino Sweater,SMB,Organic Search,2,115.46,230.92,159.45,71.47,4.1
+ORD-50607,2023-12-14,Latin America,Electronics,Noise-Cancelling Headphones,Consumer,Organic Search,5,256.22,1281.08,990.01,291.07,4.3
+ORD-50608,2023-12-14,North America,Electronics,Smart Watch,SMB,Organic Search,1,304.62,304.62,162.15,142.47,3.5
+ORD-50609,2023-12-14,North America,Electronics,Ultra HD Monitor,Enterprise,Paid Ads,1,456.21,456.21,226.76,229.45,2.9
+ORD-50610,2023-12-15,Latin America,Home & Office,Ergonomic Chair,Consumer,Direct Web,3,339.18,1017.53,574.35,443.18,4.8
+ORD-50611,2023-12-15,Europe,Electronics,Pro Laptop,SMB,Direct Web,2,1251.12,2502.25,1883.2,619.05,4.0
+ORD-50612,2023-12-18,Latin America,Beauty & Care,Hydration Cream,Consumer,Paid Ads,3,44.88,134.64,102.27,32.37,4.1
+ORD-50613,2023-12-18,Latin America,Home & Office,Standing Desk,Enterprise,Organic Search,2,616.87,1233.74,803.59,430.15,5.0
+ORD-50614,2023-12-18,Europe,Beauty & Care,Face Cleanser,Consumer,Paid Ads,1,27.52,27.52,14.42,13.1,4.3
+ORD-50615,2023-12-18,North America,Beauty & Care,Mineral Sunscreen,SMB,Direct Web,1,32.54,32.54,24.75,7.79,4.7
+ORD-50616,2023-12-19,Europe,Home & Office,Desk Lamp,Consumer,Direct Web,1,63.08,63.08,33.18,29.9,4.3
+ORD-50617,2023-12-19,Europe,Electronics,Noise-Cancelling Headphones,Enterprise,Direct Web,5,241.58,1207.91,656.78,551.13,3.3
+ORD-50618,2023-12-19,Europe,Beauty & Care,Face Cleanser,SMB,Organic Search,2,28.4,56.81,36.23,20.58,3.3
+ORD-50619,2023-12-21,North America,Apparel,Trail Shoes,SMB,Organic Search,2,128.37,256.74,197.65,59.09,4.5
+ORD-50620,2023-12-22,Latin America,Home & Office,Desk Lamp,SMB,Direct Web,1,66.84,66.84,35.45,31.39,3.2
+ORD-50621,2023-12-26,North America,Apparel,Performance Jacket,SMB,Affiliate,1,160.26,160.26,112.6,47.66,4.2
+ORD-50622,2023-12-27,North America,Electronics,Smart Watch,SMB,Paid Ads,2,301.47,602.94,459.75,143.19,4.3
+ORD-50623,2023-12-27,Europe,Beauty & Care,Mineral Sunscreen,SMB,Affiliate,3,32.2,96.61,74.0,22.61,4.6
+ORD-50624,2023-12-28,Asia-Pacific,Home & Office,Standing Desk,SMB,Direct Web,2,605.32,1210.65,725.11,485.54,5.0
+ORD-50625,2023-12-30,Latin America,Apparel,Trail Shoes,SMB,Paid Ads,1,133.34,133.34,61.58,71.76,3.9
+ORD-50626,2023-12-30,Europe,Apparel,Classic Tee,Enterprise,Organic Search,2,34.85,69.7,34.51,35.19,3.3
+ORD-50627,2024-01-02,Latin America,Home & Office,Ergonomic Chair,Consumer,Organic Search,4,342.24,1368.97,662.79,706.18,4.4
+ORD-50628,2024-01-02,Asia-Pacific,Home & Office,Desk Lamp,SMB,Direct Web,2,67.0,133.99,75.76,58.23,3.8
+ORD-50629,2024-01-04,North America,Apparel,Trail Shoes,SMB,Direct Web,4,130.79,523.17,352.75,170.42,4.6
+ORD-50630,2024-01-06,Latin America,Electronics,Ultra HD Monitor,SMB,Direct Web,1,445.61,445.61,321.03,124.58,3.1
+ORD-50631,2024-01-09,North America,Home & Office,Standing Desk,Consumer,Organic Search,1,572.55,572.55,408.62,163.93,4.8
+ORD-50632,2024-01-10,Europe,Electronics,Pro Laptop,Enterprise,Paid Ads,2,1177.69,2355.38,1109.33,1246.05,3.7
+ORD-50633,2024-01-12,Asia-Pacific,Home & Office,Desk Lamp,Consumer,Organic Search,5,66.06,330.32,200.87,129.45,4.9
+ORD-50634,2024-01-13,Europe,Electronics,Ultra HD Monitor,Consumer,Direct Web,3,428.13,1284.39,981.36,303.03,4.4
+ORD-50635,2024-01-14,Asia-Pacific,Home & Office,Standing Desk,Consumer,Direct Web,1,587.85,587.85,332.66,255.19,5.0
+ORD-50636,2024-01-14,North America,Apparel,Trail Shoes,SMB,Affiliate,3,135.26,405.79,231.19,174.6,
+ORD-50637,2024-01-17,Europe,Home & Office,Coffee Maker,Consumer,Direct Web,1,175.97,175.97,135.6,40.37,4.8
+ORD-50638,2024-01-17,North America,Beauty & Care,Mineral Sunscreen,Consumer,Affiliate,1,32.19,32.19,14.58,17.61,4.1
+ORD-50639,2024-01-17,North America,Electronics,Noise-Cancelling Headphones,Consumer,Affiliate,2,259.12,518.25,341.33,176.92,5.0
+ORD-50640,2024-01-18,North America,Apparel,Performance Jacket,Consumer,Affiliate,1,157.91,157.91,103.91,54.0,4.8
+ORD-50641,2024-01-20,Latin America,Home & Office,Standing Desk,SMB,Organic Search,1,610.71,610.71,279.24,331.47,1.6
+ORD-50642,2024-01-21,Asia-Pacific,Beauty & Care,Hydration Cream,SMB,Affiliate,4,45.26,181.03,130.05,50.98,5.0
+ORD-50643,2024-01-21,Europe,Electronics,Pro Laptop,Consumer,Organic Search,1,1179.28,1179.28,849.68,329.6,3.6
+ORD-50644,2024-01-22,Europe,Home & Office,Desk Lamp,Enterprise,Direct Web,1,63.73,63.73,35.2,28.53,5.0
+ORD-50645,2024-01-22,Europe,Electronics,Noise-Cancelling Headphones,SMB,Direct Web,1,251.57,251.57,172.66,78.91,4.8
+ORD-50646,2024-01-23,Europe,Apparel,Merino Sweater,SMB,Organic Search,4,107.06,428.24,306.16,122.08,5.0
+ORD-50647,2024-01-23,North America,Beauty & Care,Face Cleanser,Consumer,Direct Web,1,27.18,27.18,21.43,5.75,5.0
+ORD-50648,2024-01-23,Asia-Pacific,Home & Office,Ergonomic Chair,Enterprise,Paid Ads,1,356.63,356.63,204.29,152.34,4.7
+ORD-50649,2024-01-26,Asia-Pacific,Beauty & Care,Serum Pack,SMB,Paid Ads,1,83.76,83.76,61.01,22.75,5.0
+ORD-50650,2024-01-28,North America,Beauty & Care,Mineral Sunscreen,Enterprise,Paid Ads,1,32.17,32.17,22.79,9.38,3.7
+ORD-50651,2024-01-29,Europe,Apparel,Trail Shoes,Consumer,Paid Ads,1,128.21,128.21,82.55,45.66,5.0
+ORD-50652,2024-01-31,Europe,Home & Office,Standing Desk,SMB,Affiliate,2,598.32,1196.63,579.61,617.02,4.7
+ORD-50653,2024-02-01,Europe,Apparel,Classic Tee,Consumer,Direct Web,3,36.04,108.11,84.56,23.55,4.3
+ORD-50654,2024-02-02,Europe,Apparel,Merino Sweater,Consumer,Direct Web,1,107.05,107.05,73.99,33.06,3.0
+ORD-50655,2024-02-02,Latin America,Beauty & Care,Serum Pack,Consumer,Paid Ads,1,86.51,86.51,46.95,39.56,5.0
+ORD-50656,2024-02-03,Asia-Pacific,Apparel,Classic Tee,Enterprise,Paid Ads,4,34.0,135.98,108.71,27.27,2.8
+ORD-50657,2024-02-05,North America,Electronics,Noise-Cancelling Headphones,Enterprise,Organic Search,3,255.05,765.16,379.27,385.89,3.4
+ORD-50658,2024-02-09,North America,Home & Office,Ergonomic Chair,SMB,Paid Ads,1,367.27,367.27,253.31,113.96,4.1
+ORD-50659,2024-02-09,Europe,Home & Office,Coffee Maker,Consumer,Paid Ads,1,171.74,171.74,81.35,90.39,3.9
+ORD-50660,2024-02-09,Europe,Beauty & Care,Mineral Sunscreen,Consumer,Affiliate,4,32.36,129.43,94.36,35.07,4.4
+ORD-50661,2024-02-09,Europe,Electronics,Ultra HD Monitor,SMB,Paid Ads,2,458.66,917.32,508.49,408.83,4.3
+ORD-50662,2024-02-09,Asia-Pacific,Home & Office,Desk Lamp,SMB,Direct Web,10,63.04,630.37,331.25,299.12,4.2
+ORD-50663,2024-02-10,Asia-Pacific,Electronics,Ultra HD Monitor,SMB,Organic Search,1,448.68,448.68,271.63,177.05,4.1
+ORD-50664,2024-02-11,Asia-Pacific,Electronics,Ultra HD Monitor,Consumer,Direct Web,2,442.54,885.09,504.47,380.62,3.1
+ORD-50665,2024-02-13,Europe,Home & Office,Desk Lamp,SMB,Organic Search,1,67.13,67.13,43.02,24.11,5.0
+ORD-50666,2024-02-13,North America,Home & Office,Ergonomic Chair,Consumer,Affiliate,2,339.97,679.94,447.63,232.31,4.4
+ORD-50667,2024-02-14,Asia-Pacific,Apparel,Merino Sweater,Enterprise,Direct Web,1,114.26,114.26,70.53,43.73,5.0
+ORD-50668,2024-02-15,North America,Apparel,Merino Sweater,SMB,Organic Search,3,115.38,346.14,193.58,152.56,4.8
+ORD-50669,2024-02-15,North America,Home & Office,Standing Desk,Consumer,Direct Web,2,625.09,1250.17,993.49,256.68,4.0
+ORD-50670,2024-02-17,North America,Electronics,Smart Watch,Consumer,Paid Ads,1,288.61,288.61,209.46,79.15,5.0
+ORD-50671,2024-02-18,Asia-Pacific,Home & Office,Standing Desk,Consumer,Direct Web,1,617.99,617.99,315.75,302.24,5.0
+ORD-50672,2024-02-21,Latin America,Home & Office,Coffee Maker,Consumer,Organic Search,4,172.52,690.08,533.49,156.59,4.0
+ORD-50673,2024-02-23,North America,Home & Office,Desk Lamp,Consumer,Paid Ads,3,61.83,185.48,145.39,40.09,4.7
+ORD-50674,2024-02-23,Europe,Apparel,Trail Shoes,SMB,Organic Search,1,129.98,129.98,70.6,59.38,4.8
+ORD-50675,2024-02-24,Asia-Pacific,Apparel,Classic Tee,Consumer,Organic Search,3,34.38,103.13,58.85,44.28,3.8
+ORD-50676,2024-02-25,Europe,Beauty & Care,Face Cleanser,Consumer,Organic Search,4,28.28,113.13,83.26,29.87,4.2
+ORD-50677,2024-02-25,Europe,Apparel,Classic Tee,Consumer,Paid Ads,1,36.05,36.05,21.0,15.05,4.2
+ORD-50678,2024-02-25,Europe,Electronics,Ultra HD Monitor,SMB,Paid Ads,5,437.2,2185.99,1162.25,1023.74,
+ORD-50679,2024-02-27,Europe,Electronics,Pro Laptop,Consumer,Paid Ads,1,1175.73,1175.73,780.44,395.29,4.4
+ORD-50680,2024-02-27,North America,Electronics,Smart Watch,Consumer,Organic Search,1,309.81,309.81,173.84,135.97,4.4
+ORD-50681,2024-03-01,Europe,Electronics,Pro Laptop,Consumer,Affiliate,4,1172.57,4690.27,3610.66,1079.61,3.5
+ORD-50682,2024-03-02,Europe,Beauty & Care,Serum Pack,SMB,Organic Search,1,85.89,85.89,57.49,28.4,4.9
+ORD-50683,2024-03-04,Asia-Pacific,Beauty & Care,Hydration Cream,Enterprise,Organic Search,2,44.56,89.12,56.1,33.02,3.4
+ORD-50684,2024-03-05,North America,Apparel,Merino Sweater,Consumer,Paid Ads,2,107.85,215.69,121.77,93.92,5.0
+ORD-50685,2024-03-05,North America,Home & Office,Standing Desk,Consumer,Organic Search,1,576.4,576.4,407.99,168.41,4.9
+ORD-50686,2024-03-06,North America,Electronics,Ultra HD Monitor,SMB,Paid Ads,1,463.84,463.84,231.2,232.64,4.1
+ORD-50687,2024-03-07,Asia-Pacific,Apparel,Trail Shoes,Enterprise,Organic Search,2,135.46,270.93,173.71,97.22,4.5
+ORD-50688,2024-03-09,Europe,Beauty & Care,Serum Pack,SMB,Direct Web,3,84.57,253.72,160.4,93.32,3.7
+ORD-50689,2024-03-10,Europe,Electronics,Smart Watch,Consumer,Paid Ads,2,305.79,611.59,424.53,187.06,4.4
+ORD-50690,2024-03-10,North America,Apparel,Performance Jacket,SMB,Affiliate,3,154.85,464.55,272.36,192.19,4.6
+ORD-50691,2024-03-10,North America,Beauty & Care,Face Cleanser,Enterprise,Paid Ads,3,27.75,83.26,48.01,35.25,3.9
+ORD-50692,2024-03-11,Europe,Electronics,Noise-Cancelling Headphones,SMB,Direct Web,2,261.01,522.02,259.8,262.22,4.1
+ORD-50693,2024-03-13,Europe,Apparel,Trail Shoes,SMB,Direct Web,1,134.34,134.34,76.81,57.53,4.4
+ORD-50694,2024-03-14,North America,Beauty & Care,Face Cleanser,SMB,Paid Ads,4,27.72,110.88,69.76,41.12,2.9
+ORD-50695,2024-03-14,North America,Home & Office,Coffee Maker,Enterprise,Direct Web,1,171.07,171.07,97.56,73.51,3.9
+ORD-50696,2024-03-15,North America,Apparel,Classic Tee,Enterprise,Direct Web,1,35.43,35.43,25.84,9.59,4.5
+ORD-50697,2024-03-15,North America,Electronics,Ultra HD Monitor,SMB,Affiliate,4,446.64,1786.54,998.52,788.02,4.4
+ORD-50698,2024-03-18,Europe,Electronics,Noise-Cancelling Headphones,Consumer,Affiliate,1,257.96,257.96,197.45,60.51,3.8
+ORD-50699,2024-03-20,North America,Apparel,Merino Sweater,Consumer,Affiliate,3,113.0,339.01,202.81,136.2,4.1
+ORD-50700,2024-03-20,Asia-Pacific,Beauty & Care,Face Cleanser,Consumer,Organic Search,1,27.87,27.87,19.78,8.09,4.7
+ORD-50701,2024-03-20,Asia-Pacific,Home & Office,Desk Lamp,SMB,Direct Web,2,65.0,129.99,62.85,67.14,3.8
+ORD-50702,2024-03-20,Asia-Pacific,Electronics,Noise-Cancelling Headphones,Consumer,Paid Ads,1,249.08,249.08,161.28,87.8,3.8
+ORD-50703,2024-03-21,Europe,Home & Office,Desk Lamp,Enterprise,Affiliate,3,65.33,195.98,113.13,82.85,4.2
+ORD-50704,2024-03-21,North America,Apparel,Performance Jacket,Enterprise,Direct Web,2,166.79,333.59,216.79,116.8,4.4
+ORD-50705,2024-03-21,Europe,Home & Office,Ergonomic Chair,Consumer,Affiliate,2,359.36,718.72,395.69,323.03,3.3
+ORD-50706,2024-03-23,Europe,Apparel,Trail Shoes,Consumer,Paid Ads,1,124.4,124.4,59.6,64.8,5.0
+ORD-50707,2024-03-25,North America,Electronics,Ultra HD Monitor,Consumer,Organic Search,2,445.39,890.78,576.29,314.49,5.0
+ORD-50708,2024-03-25,Europe,Electronics,Ultra HD Monitor,SMB,Organic Search,1,428.16,428.16,259.56,168.6,5.0
+ORD-50709,2024-03-25,North America,Home & Office,Standing Desk,Enterprise,Direct Web,2,572.88,1145.76,741.51,404.25,4.2
+ORD-50710,2024-03-27,North America,Home & Office,Coffee Maker,Consumer,Organic Search,1,174.84,174.84,106.29,68.55,4.2
+ORD-50711,2024-03-28,North America,Home & Office,Standing Desk,SMB,Paid Ads,1,614.54,614.54,411.32,203.22,4.6
+ORD-50712,2024-03-29,North America,Electronics,Noise-Cancelling Headphones,Enterprise,Direct Web,2,248.16,496.33,230.59,265.74,5.0
+ORD-50713,2024-03-30,North America,Home & Office,Standing Desk,Consumer,Affiliate,1,572.98,572.98,327.56,245.42,3.4
+ORD-50714,2024-03-31,North America,Apparel,Performance Jacket,SMB,Direct Web,3,157.97,473.91,283.76,190.15,5.0
+ORD-50715,2024-03-31,Europe,Beauty & Care,Mineral Sunscreen,Consumer,Organic Search,2,33.21,66.42,31.83,34.59,4.0
+ORD-50716,2024-03-31,North America,Electronics,Noise-Cancelling Headphones,Consumer,Direct Web,1,256.61,256.61,136.56,120.05,4.3
+ORD-50717,2024-03-31,North America,Beauty & Care,Face Cleanser,Enterprise,Direct Web,1,26.65,26.65,14.22,12.43,5.0
+ORD-50718,2024-04-03,North America,Electronics,Smart Watch,SMB,Organic Search,2,292.71,585.42,335.28,250.14,3.4
+ORD-50719,2024-04-04,North America,Electronics,Pro Laptop,Consumer,Paid Ads,4,1192.96,4771.84,2536.32,2235.52,4.1
+ORD-50720,2024-04-04,Latin America,Home & Office,Desk Lamp,Consumer,Organic Search,1,64.41,64.41,43.22,21.19,4.1
+ORD-50721,2024-04-05,Europe,Electronics,Noise-Cancelling Headphones,Consumer,Direct Web,2,247.29,494.58,260.89,233.69,4.6
+ORD-50722,2024-04-07,Europe,Apparel,Merino Sweater,Enterprise,Organic Search,8,113.87,910.93,657.92,253.01,4.7
+ORD-50723,2024-04-07,Europe,Electronics,Pro Laptop,Enterprise,Paid Ads,1,1169.83,1169.83,817.64,352.19,4.1
+ORD-50724,2024-04-08,North America,Home & Office,Coffee Maker,SMB,Organic Search,1,184.23,184.23,129.97,54.26,
+ORD-50725,2024-04-08,Asia-Pacific,Apparel,Classic Tee,Enterprise,Organic Search,2,34.27,68.53,48.81,19.72,3.4
+ORD-50726,2024-04-18,Asia-Pacific,Electronics,Pro Laptop,SMB,Paid Ads,3,1193.07,3579.22,2372.28,1206.94,3.8
+ORD-50727,2024-04-19,North America,Electronics,Ultra HD Monitor,SMB,Organic Search,3,465.18,1395.54,878.3,517.24,5.0
+ORD-50728,2024-04-19,Asia-Pacific,Home & Office,Coffee Maker,Consumer,Affiliate,1,187.22,187.22,96.93,90.29,4.6
+ORD-50729,2024-04-19,Europe,Apparel,Trail Shoes,Consumer,Direct Web,1,124.19,124.19,59.21,64.98,4.1
+ORD-50730,2024-04-21,Europe,Electronics,Noise-Cancelling Headphones,Consumer,Affiliate,2,246.21,492.43,305.71,186.72,4.5
+ORD-50731,2024-04-23,Latin America,Apparel,Merino Sweater,Enterprise,Paid Ads,4,113.33,453.34,335.5,117.84,5.0
+ORD-50732,2024-04-23,Europe,Electronics,Smart Watch,SMB,Organic Search,3,300.29,900.88,653.43,247.45,4.4
+ORD-50733,2024-04-23,Asia-Pacific,Electronics,Pro Laptop,Consumer,Direct Web,1,1191.56,1191.56,650.16,541.4,4.2
+ORD-50734,2024-04-26,North America,Home & Office,Ergonomic Chair,SMB,Affiliate,3,357.29,1071.88,718.45,353.43,2.5
+ORD-50735,2024-04-29,North America,Apparel,Performance Jacket,SMB,Organic Search,2,158.2,316.39,243.52,72.87,3.1
+ORD-50736,2024-05-01,North America,Electronics,Smart Watch,Enterprise,Direct Web,4,295.8,1183.21,564.07,619.14,3.7
+ORD-50737,2024-05-02,North America,Beauty & Care,Mineral Sunscreen,SMB,Paid Ads,1,31.86,31.86,,14.81,4.3
+ORD-50738,2024-05-03,Europe,Apparel,Trail Shoes,SMB,Organic Search,1,127.36,127.36,62.25,65.11,2.7
+ORD-50739,2024-05-03,Europe,Apparel,Trail Shoes,SMB,Organic Search,1,130.28,130.28,82.56,47.72,4.3
+ORD-50740,2024-05-05,Europe,Apparel,Classic Tee,Consumer,Affiliate,3,33.51,100.53,77.15,23.38,2.5
+ORD-50741,2024-05-05,Europe,Beauty & Care,Face Cleanser,SMB,Paid Ads,1,26.8,26.8,13.27,13.53,
+ORD-50742,2024-05-06,Europe,Electronics,Pro Laptop,SMB,Direct Web,3,1152.4,3457.2,2029.98,1427.22,5.0
+ORD-50743,2024-05-06,Europe,Apparel,Trail Shoes,Enterprise,Direct Web,3,135.22,405.66,313.41,92.25,5.0
+ORD-50744,2024-05-08,Europe,Beauty & Care,Mineral Sunscreen,Enterprise,Affiliate,1,33.33,33.33,18.76,14.57,5.0
+ORD-50745,2024-05-11,Europe,Home & Office,Ergonomic Chair,Enterprise,Paid Ads,1,360.04,360.04,212.32,147.72,4.8
+ORD-50746,2024-05-11,North America,Electronics,Ultra HD Monitor,SMB,Paid Ads,2,438.9,877.8,541.89,335.91,2.9
+ORD-50747,2024-05-11,Latin America,Home & Office,Desk Lamp,Consumer,Direct Web,2,65.91,131.83,74.84,56.99,3.4
+ORD-50748,2024-05-13,Asia-Pacific,Apparel,Performance Jacket,SMB,Direct Web,2,164.61,329.23,186.39,142.84,3.8
+ORD-50749,2024-05-14,Europe,Electronics,Ultra HD Monitor,Consumer,Direct Web,1,447.6,447.6,,90.97,4.6
+ORD-50750,2024-05-14,Europe,Home & Office,Coffee Maker,Consumer,Direct Web,3,185.13,555.39,400.1,155.29,4.6
+ORD-50751,2024-05-15,Asia-Pacific,Home & Office,Desk Lamp,Enterprise,Direct Web,1,63.44,63.44,30.04,33.4,5.0
+ORD-50752,2024-05-15,Asia-Pacific,Electronics,Noise-Cancelling Headphones,SMB,Direct Web,2,258.74,517.49,383.7,133.79,4.2
+ORD-50753,2024-05-15,Europe,Apparel,Performance Jacket,Consumer,Paid Ads,3,153.37,460.11,356.58,103.53,3.6
+ORD-50754,2024-05-15,North America,Electronics,Noise-Cancelling Headphones,SMB,Direct Web,1,244.86,244.86,149.9,94.96,3.3
+ORD-50755,2024-05-17,Latin America,Beauty & Care,Face Cleanser,Consumer,Paid Ads,2,28.78,57.56,36.25,21.31,5.0
+ORD-50756,2024-05-19,Asia-Pacific,Electronics,Pro Laptop,Consumer,Direct Web,1,1243.65,1243.65,772.23,471.42,3.4
+ORD-50757,2024-05-19,North America,Electronics,Ultra HD Monitor,Consumer,Direct Web,4,451.45,1805.8,1156.38,649.42,3.7
+ORD-50758,2024-05-21,North America,Beauty & Care,Mineral Sunscreen,Consumer,Direct Web,1,30.53,30.53,15.62,14.91,4.7
+ORD-50759,2024-05-21,Asia-Pacific,Electronics,Ultra HD Monitor,Consumer,Direct Web,1,436.99,436.99,251.34,185.65,4.2
+ORD-50760,2024-05-21,North America,Beauty & Care,Mineral Sunscreen,SMB,Organic Search,3,30.53,91.59,42.58,49.01,5.0
+ORD-50761,2024-05-22,Latin America,Apparel,Trail Shoes,SMB,Organic Search,4,123.53,494.12,294.09,200.03,5.0
+ORD-50762,2024-05-23,Asia-Pacific,Electronics,Ultra HD Monitor,SMB,Direct Web,4,467.12,1868.46,1081.58,786.88,4.2
+ORD-50763,2024-05-23,North America,Apparel,Performance Jacket,Enterprise,Direct Web,4,159.73,638.91,309.51,329.4,3.8
+ORD-50764,2024-05-25,Europe,Apparel,Merino Sweater,Consumer,Organic Search,2,111.62,223.25,152.98,70.27,4.5
+ORD-50765,2024-05-25,North America,Apparel,Classic Tee,Enterprise,Organic Search,2,35.7,71.4,33.4,38.0,3.9
+ORD-50766,2024-05-25,Latin America,Apparel,Classic Tee,SMB,Direct Web,2,35.82,71.64,37.5,34.14,3.6
+ORD-50767,2024-05-26,Asia-Pacific,Beauty & Care,Face Cleanser,SMB,Direct Web,1,28.49,28.49,15.63,12.86,4.3
+ORD-50768,2024-05-26,Europe,Electronics,Smart Watch,Consumer,Direct Web,1,300.91,300.91,213.94,86.97,
+ORD-50769,2024-05-29,North America,Electronics,Ultra HD Monitor,SMB,Organic Search,2,430.49,860.98,523.77,337.21,4.4
+ORD-50770,2024-05-29,North America,Electronics,Pro Laptop,Enterprise,Paid Ads,1,1184.66,1184.66,929.17,255.49,4.4
+ORD-50771,2024-05-31,North America,Apparel,Classic Tee,SMB,Organic Search,3,33.7,101.09,47.04,54.05,3.9
+ORD-50772,2024-06-03,Asia-Pacific,Home & Office,Standing Desk,Enterprise,Affiliate,1,621.69,621.69,358.51,263.18,4.4
+ORD-50773,2024-06-04,North America,Apparel,Performance Jacket,SMB,Organic Search,1,156.71,156.71,119.15,37.56,4.4
+ORD-50774,2024-06-06,Europe,Home & Office,Desk Lamp,SMB,Direct Web,1,67.4,67.4,31.1,36.3,4.7
+ORD-50775,2024-06-06,Europe,Home & Office,Desk Lamp,SMB,Direct Web,1,64.16,64.16,,32.64,3.4
+ORD-50776,2024-06-07,North America,Home & Office,Coffee Maker,SMB,Direct Web,3,186.43,559.29,332.4,226.89,4.0
+ORD-50777,2024-06-07,North America,Home & Office,Coffee Maker,Enterprise,Organic Search,1,188.85,188.85,119.95,68.9,4.2
+ORD-50778,2024-06-08,Europe,Electronics,Ultra HD Monitor,Consumer,Paid Ads,4,450.92,1803.68,908.04,895.64,3.6
+ORD-50779,2024-06-12,Asia-Pacific,Home & Office,Standing Desk,Consumer,Paid Ads,3,598.01,1794.02,1088.12,705.9,4.3
+ORD-50780,2024-06-12,North America,Apparel,Merino Sweater,SMB,Organic Search,1,108.31,108.31,61.77,46.54,4.4
+ORD-50781,2024-06-14,North America,Home & Office,Standing Desk,SMB,Direct Web,2,597.28,1194.56,575.4,619.16,4.8
+ORD-50782,2024-06-14,Asia-Pacific,Electronics,Pro Laptop,SMB,Direct Web,2,1236.92,2473.84,1526.78,947.06,5.0
+ORD-50783,2024-06-15,Europe,Electronics,Smart Watch,Consumer,Paid Ads,3,305.99,917.96,728.63,189.33,5.0
+ORD-50784,2024-06-16,Europe,Beauty & Care,Serum Pack,SMB,Organic Search,1,86.42,86.42,68.67,17.75,4.2
+ORD-50785,2024-06-16,Latin America,Apparel,Classic Tee,SMB,Affiliate,2,35.18,70.35,46.64,23.71,3.9
+ORD-50786,2024-06-17,Asia-Pacific,Home & Office,Desk Lamp,Consumer,Organic Search,3,63.36,190.07,123.37,66.7,
+ORD-50787,2024-06-17,North America,Electronics,Pro Laptop,Consumer,Affiliate,3,1148.8,3446.39,2067.28,1379.11,4.9
+ORD-50788,2024-06-18,North America,Home & Office,Coffee Maker,Consumer,Direct Web,2,173.3,346.61,220.66,125.95,4.2
+ORD-50789,2024-06-18,Europe,Electronics,Ultra HD Monitor,Enterprise,Direct Web,1,451.74,451.74,292.89,158.85,3.6
+ORD-50790,2024-06-18,Europe,Electronics,Ultra HD Monitor,Consumer,Organic Search,3,459.43,1378.29,1084.6,293.69,3.8
+ORD-50791,2024-06-23,Europe,Electronics,Ultra HD Monitor,Enterprise,Organic Search,2,442.5,884.99,623.04,261.95,2.6
+ORD-50792,2024-06-23,North America,Home & Office,Coffee Maker,Enterprise,Affiliate,1,174.35,174.35,84.91,89.44,4.8
+ORD-50793,2024-06-23,North America,Home & Office,Coffee Maker,Consumer,Affiliate,2,171.29,342.58,259.6,82.98,4.6
+ORD-50794,2024-06-24,Asia-Pacific,Home & Office,Desk Lamp,Consumer,Organic Search,5,62.55,312.75,184.44,128.31,
+ORD-50795,2024-06-26,Latin America,Home & Office,Ergonomic Chair,Enterprise,Organic Search,2,358.06,716.13,500.34,215.79,
+ORD-50796,2024-06-26,North America,Beauty & Care,Face Cleanser,SMB,Paid Ads,5,27.55,137.73,84.57,53.16,2.6
+ORD-50797,2024-06-27,North America,Home & Office,Ergonomic Chair,Enterprise,Direct Web,2,332.51,665.02,491.72,173.3,3.3
+ORD-50798,2024-06-28,North America,Apparel,Merino Sweater,Consumer,Direct Web,1,114.16,114.16,62.81,51.35,5.0
+ORD-50799,2024-06-30,Asia-Pacific,Home & Office,Standing Desk,Enterprise,Organic Search,1,603.15,603.15,474.84,128.31,3.6

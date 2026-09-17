@@ -139,6 +139,7 @@ from modules.ml_engine import (
     run_behavioral_segmentation_use_case,
     run_market_basket_use_case
 )
+from modules.automl_pipeline import run_automl_pipeline, AutoMLPipeline
 from modules.predictive_engine import predict_scenario
 from modules.forecasting_engine import (
     detect_time_series_columns,
@@ -638,6 +639,7 @@ with st.sidebar:
             "🐍 Python Coding Environment"
         ],
         "🤖 AI & Machine Learning": [
+            "⚡ Model AutoML",
             "🤖 AI Assistant",
             "🤖 Machine Learning",
             "🎯 Predictive Analytics",
@@ -3614,8 +3616,8 @@ elif selected_module == "➕ Insert New Column":
         st.dataframe(df.head(50), use_container_width=True)
 
 
-# ---------------- 13. MACHINE LEARNING ----------------
-elif selected_module == "🤖 Machine Learning":
+# ---------------- 13. MACHINE LEARNING & AUTOML ----------------
+elif selected_module in ["⚡ Model AutoML", "Model AutoML", "AutoML", "🤖 Machine Learning", "Machine Learning"]:
     st.subheader("🤖 Machine Learning Studio & AutoML Workspace")
     st.caption("End-to-End Supervised Learning (12 Regressors, 10 Classifiers, Multilabel), Unsupervised Clustering (5 Algorithms), PCA/t-SNE/UMAP, Association Rules (Apriori & FP-Growth), and 4 Business Use Cases.")
 
@@ -3670,13 +3672,94 @@ elif selected_module == "🤖 Machine Learning":
                 set_task_status("Load Dataset", "success", f"Loaded E-Commerce Sales ({len(df_sales):,} rows)")
                 st.rerun()
     else:
-        tab_sup, tab_unsup, tab_dim, tab_assoc, tab_cases = st.tabs([
+        tab_automl, tab_sup, tab_unsup, tab_dim, tab_assoc, tab_cases = st.tabs([
+            "⚡ Model AutoML",
             "🎯 Supervised Learning",
             "🔵 Unsupervised Clustering",
             "🌌 Dimensionality Reduction",
             "🛒 Association Analysis",
             "🏢 Business Use Cases"
         ])
+
+        # ---------------- TAB 0: MODEL AUTOML ----------------
+        with tab_automl:
+            st.markdown("### ⚡ Automated Machine Learning (AutoML) Pipeline")
+            st.caption("Select target column and prediction type. The system automatically detects feature types, cleans data, handles missing values, encodes categories, detects leakage, splits train/test data, generates features, trains multiple models, tunes hyperparameters, compares models, evaluates models, selects the best model, explains the model, saves the model, and displays a model leaderboard.")
+
+            ac1, ac2 = st.columns([1, 1])
+            with ac1:
+                target_candidates = list(df.columns)
+                default_target_idx = len(target_candidates) - 1
+                for i, c in enumerate(target_candidates):
+                    if c.lower() in ["churn", "saleprice", "revenue", "target", "label", "price", "status"]:
+                        default_target_idx = i
+                        break
+                automl_target = st.selectbox("1. Target Column (Y):", target_candidates, index=default_target_idx, key="sb_automl_target")
+
+            with ac2:
+                automl_pred_type = st.selectbox(
+                    "2. Prediction Type:",
+                    ["⚡ Auto-Detect", "🎯 Classification", "📈 Regression"],
+                    key="sb_automl_pred_type"
+                )
+
+            can_train_automl = bool(automl_target and automl_target in df.columns)
+            if st.button("🚀 Train AutoML Pipeline", type="primary", use_container_width=True, disabled=not can_train_automl, key="btn_run_automl_pipeline"):
+                with st.spinner("Executing 14-Stage AutoML Pipeline (Feature Detection → Cleaning → Imputation → Encoding → Leakage Check → Split → Feature Engineering → Training → Tuning → Benchmarking → Evaluation → Champion Selection → Explainability → Model Registry)..."):
+                    try:
+                        automl_result = run_automl_pipeline(
+                            df,
+                            target_col=automl_target,
+                            prediction_type=automl_pred_type,
+                            dataset_name=st.session_state.dataset_source
+                        )
+                        st.session_state["automl_pipeline_result"] = automl_result
+                        st.session_state["trained_model_res"] = {
+                            "metrics": automl_result["champion_record"],
+                            "feature_importances": automl_result["explanation"]["feature_importances"]
+                        }
+                        set_task_status("Model AutoML", "success", f"AutoML complete! Champion: {automl_result['champion_model']} registered.")
+                        st.success(f"🎉 AutoML Pipeline complete! Champion: **{automl_result['champion_model']}** (Saved to Model Registry)")
+                    except Exception as e:
+                        set_task_status("Model AutoML", "failed", str(e))
+                        st.error(f"AutoML Error: {e}")
+
+            if st.session_state.get("automl_pipeline_result"):
+                res = st.session_state["automl_pipeline_result"]
+                champ_rec = res["champion_record"]
+                task = res["task_type"]
+
+                with st.expander("📋 Automated Pipeline Execution Log (14 Stages Verified)", expanded=False):
+                    for log_entry in res["pipeline_logs"]:
+                        st.markdown(f"**`{log_entry['step']}`** `[{log_entry['timestamp']}]`: {log_entry['message']}")
+
+                st.markdown("---")
+                st.markdown(f"### 🥇 Champion Model: **{res['champion_model']}**")
+                st.caption(f"Task: **{task.title()}** | Target: `{res['target_col']}` | Dataset: `{st.session_state.dataset_source}` | Pipeline Runtime: `{res['total_pipeline_time']}s`")
+
+                m_keys = [k for k in champ_rec.keys() if k not in ["Rank", "Model", "Training Time (s)", "_sort_key"]]
+                m_cols = st.columns(len(m_keys) + 1)
+                for i, k in enumerate(m_keys):
+                    with m_cols[i]:
+                        st.metric(label=k.upper(), value=champ_rec[k])
+                with m_cols[-1]:
+                    st.metric(label="TRAIN TIME", value=f"{champ_rec.get('Training Time (s)', 0)}s")
+
+                st.info(f"💾 **Model Persisted to Registry:** Registered with ID `{res['registered_model_card'].get('id')}` (Status: **Production**)")
+
+                st.markdown("---")
+                st.markdown("### 🏆 Model Leaderboard")
+                st.caption("Comprehensive multi-model benchmarking ranked by primary objective.")
+                st.dataframe(res["leaderboard"], use_container_width=True)
+
+                st.markdown("---")
+                st.markdown("### 🔍 Model Explainability & Driver Attribution")
+                expl = res["explanation"]
+                st.markdown(expl["narrative"])
+
+                if expl["feature_importances"]:
+                    fi_df = pd.DataFrame(expl["feature_importances"]).rename(columns={"feature": "Feature", "importance": "Importance Weight"}).set_index("Feature")
+                    st.bar_chart(fi_df)
 
         # ---------------- TAB 1: SUPERVISED LEARNING ----------------
         with tab_sup:

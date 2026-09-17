@@ -61,6 +61,7 @@ from modules.statistical_engine import (
 )
 from modules.ai_orchestrator import AIOrchestrator
 from modules.ml_engine import run_automl_tournament, run_unsupervised_clustering
+from modules.automl_pipeline import run_automl_pipeline
 from modules.predictive_engine import predict_scenario
 from modules.forecasting_engine import generate_forecast, detect_time_series_columns
 from modules.model_registry import ModelRegistry
@@ -329,14 +330,20 @@ def nl_to_sql(req: NaturalLanguageSQLRequest):
 
 # ---------------- 8. MACHINE LEARNING & AUTOML ----------------
 @app.post("/ml/automl", tags=["Machine Learning"])
-def automl(target_col: str):
+def automl(target_col: str, prediction_type: str = "auto"):
     df = get_current_df()
-    res = run_automl_tournament(df, target_col=target_col)
+    res = run_automl_pipeline(df, target_col=target_col, prediction_type=prediction_type)
     return {
+        "status": res["status"],
         "task_type": res["task_type"],
         "target_col": res["target_col"],
-        "best_model_name": res["best_model_name"],
-        "leaderboard": res["leaderboard"].to_dict(orient="records")
+        "total_pipeline_time": res["total_pipeline_time"],
+        "champion_model": res["champion_model"],
+        "champion_record": res["champion_record"],
+        "leaderboard": res["leaderboard"].to_dict(orient="records"),
+        "explanation": res["explanation"],
+        "leakage_detected": res["leakage_detected"],
+        "registered_model_id": res["registered_model_card"].get("id")
     }
 
 @app.get("/models/registry", tags=["Model Registry"])
